@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { 
   ShoppingBag, 
@@ -32,6 +32,7 @@ export function Navbar() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [scrolled, setScrolled] = useState(false);
+  const catDropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -40,6 +41,22 @@ export function Navbar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // Cerrar el dropdown al hacer clic fuera
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (catDropdownRef.current && !catDropdownRef.current.contains(e.target as Node)) {
+        setCatDropdownOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  // Cerrar al cambiar de ruta
+  useEffect(() => {
+    setCatDropdownOpen(false);
+  }, [pathname]);
 
   const totalCartCount = items.reduce((sum, item) => sum + item.quantity, 0);
   const totalCartPrice = items.reduce(
@@ -56,7 +73,7 @@ export function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-40 w-full overflow-hidden">
+    <header className="sticky top-0 z-50 w-full">
       {/* Top Banner Bar - Clean & Responsive */}
       <div className="bg-[#060D1A] text-white text-xs py-2 px-3 sm:px-4 border-b border-cyan-500/20">
         <div className="max-w-7xl mx-auto flex items-center justify-between gap-2">
@@ -148,38 +165,50 @@ export function Navbar() {
 
             {/* Categories Dropdown */}
             <div 
+              ref={catDropdownRef}
               className="relative"
               onMouseEnter={() => setCatDropdownOpen(true)}
               onMouseLeave={() => setCatDropdownOpen(false)}
             >
               <button 
                 type="button"
-                className={`px-3 py-2 rounded-lg flex items-center gap-1 transition-colors ${
+                onClick={() => setCatDropdownOpen((prev) => !prev)}
+                className={`px-3 py-2 rounded-lg flex items-center gap-1 transition-colors cursor-pointer select-none ${
                   pathname.startsWith("/categoria") ? "text-cyan-400 font-bold bg-white/5" : "hover:text-cyan-400 hover:bg-white/5"
                 }`}
+                aria-expanded={catDropdownOpen}
               >
-                Categorías <ChevronDown className={`w-4 h-4 transition-transform ${catDropdownOpen ? "rotate-180" : ""}`} />
+                Categorías <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${catDropdownOpen ? "rotate-180" : ""}`} />
               </button>
 
               {catDropdownOpen && (
-                <div className="absolute top-full left-0 w-64 bg-[#0F1E36] border border-cyan-500/30 rounded-xl shadow-2xl py-2 mt-1 z-50 animate-in fade-in slide-in-from-top-2 duration-150">
-                  <div className="px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-cyan-400/80 border-b border-slate-700/60 mb-1">
-                    Colecciones
+                <div className="absolute top-full left-0 w-64 bg-[#0F1E36] border border-cyan-500/40 rounded-xl shadow-2xl py-2 mt-1.5 z-[100] animate-in fade-in slide-in-from-top-2 duration-150 backdrop-blur-lg">
+                  <div className="px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-cyan-400 border-b border-slate-700/60 mb-1 flex items-center justify-between">
+                    <span>Colecciones</span>
+                    <span className="text-[10px] text-slate-400 font-normal lowercase">{categories.length} opciones</span>
                   </div>
-                  {categories.map((cat) => (
-                    <Link
-                      key={cat.id}
-                      href={`/categoria/${cat.slug}`}
-                      className="flex items-center justify-between px-3 py-2 text-sm text-slate-200 hover:bg-cyan-500/10 hover:text-cyan-300 transition-colors"
-                      onClick={() => setCatDropdownOpen(false)}
-                    >
-                      <span>{cat.name}</span>
-                    </Link>
-                  ))}
+                  {categories.map((cat) => {
+                    const isCurrent = pathname === `/categoria/${cat.slug}`;
+                    return (
+                      <Link
+                        key={cat.id}
+                        href={`/categoria/${cat.slug}`}
+                        className={`flex items-center justify-between px-3 py-2 text-sm transition-colors ${
+                          isCurrent
+                            ? "bg-cyan-500/20 text-cyan-300 font-bold"
+                            : "text-slate-200 hover:bg-cyan-500/10 hover:text-cyan-300"
+                        }`}
+                        onClick={() => setCatDropdownOpen(false)}
+                      >
+                        <span>{cat.name}</span>
+                        {isCurrent && <span className="text-cyan-400 text-xs">✓</span>}
+                      </Link>
+                    );
+                  })}
                   <div className="border-t border-slate-700/60 my-1"></div>
                   <Link
                     href="/catalogo?mujer=true"
-                    className="flex items-center gap-2 px-3 py-2 text-sm text-pink-400 hover:bg-pink-500/10 transition-colors font-medium"
+                    className="flex items-center gap-2 px-3 py-2 text-sm text-pink-400 hover:bg-pink-500/10 transition-colors font-semibold"
                     onClick={() => setCatDropdownOpen(false)}
                   >
                     <span>⚽ Colección Para Mujer</span>
