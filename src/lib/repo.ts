@@ -78,6 +78,12 @@ async function localList<T extends Entity>(col: CollectionName): Promise<T[]> {
     } else if (col === "teams") {
       // Si la lista de equipos en local tiene menos equipos que el nuevo DEFAULT_TEAMS, actualizar
       if (stored.length >= DEFAULT_TEAMS.length) return stored;
+    } else if (col === "banners") {
+      // Si los banners guardados en local usan las imágenes antiguas con fondo blanco, actualizar
+      const hasOldImages = (stored as unknown as Banner[]).some((b) =>
+        b.image ? b.image.includes("/seed/products/") : true
+      );
+      if (!hasOldImages && stored.length >= DEFAULT_BANNERS.length) return stored;
     } else {
       return stored;
     }

@@ -120,7 +120,7 @@ export function HomeHero() {
                   src={banner.image || "/logo.jpg"}
                   alt={banner.title}
                   fill
-                  className="object-contain filter drop-shadow-[0_20px_30px_rgba(0,174,239,0.25)] hover:scale-105 transition-transform duration-500"
+                  className="object-contain filter drop-shadow-[0_20px_35px_rgba(0,174,239,0.35)] drop-shadow-[0_5px_15px_rgba(0,0,0,0.5)] hover:scale-105 transition-transform duration-500"
                   priority
                   sizes="(max-width: 1024px) 80vw, 40vw"
                 />
