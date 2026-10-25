@@ -548,7 +548,7 @@ export default function AdminPage() {
                       }`}
                     >
                       {/* Thumbnail */}
-                      <div className="w-12 h-14 rounded-lg bg-slate-100 overflow-hidden relative border border-slate-200 shrink-0">
+                      <div className="w-12 h-14 rounded-lg bg-white overflow-hidden relative border border-slate-200 shrink-0">
                         <Image src={p.images[0] || "/logo.jpg"} alt="" fill className="object-contain p-0.5" />
                       </div>
 
@@ -676,7 +676,7 @@ export default function AdminPage() {
                         <tr key={p.id} className={`hover:bg-slate-50 transition-colors ${p.hidden ? "opacity-60 bg-slate-50/50" : ""}`}>
                           {/* Image */}
                           <td className="py-1.5 px-3">
-                            <div className="w-9 h-11 rounded-md bg-slate-100 overflow-hidden relative border border-slate-200">
+                            <div className="w-9 h-11 rounded-md bg-white overflow-hidden relative border border-slate-200">
                               <Image src={p.images[0] || "/logo.jpg"} alt="" fill className="object-contain p-0.5" />
                             </div>
                           </td>
@@ -1539,7 +1539,7 @@ export default function AdminPage() {
                 </label>
                 <div className="flex flex-wrap gap-2 mb-3">
                   {editingProduct.images.map((img, idx) => (
-                    <div key={idx} className="relative w-16 h-16 rounded-xl bg-slate-50 border border-slate-200 overflow-hidden group">
+                    <div key={idx} className="relative w-16 h-16 rounded-xl bg-white border border-slate-200 overflow-hidden group">
                       <Image src={img} alt="" fill className="object-contain p-1" />
                       <button
                         type="button"

@@ -131,7 +131,7 @@ export default function CartPage() {
             {items.map((it) => (
               <div key={it.key} className="pt-4 first:pt-0 flex gap-4 items-center">
                 {/* Thumbnail */}
-                <div className="w-20 h-24 rounded-2xl bg-slate-50 border border-slate-200 overflow-hidden relative flex-shrink-0">
+                <div className="w-20 h-24 rounded-2xl bg-white border border-slate-200 overflow-hidden relative flex-shrink-0">
                   <Image src={it.image || "/logo.jpg"} alt={it.name} fill className="object-contain p-2" />
                 </div>
 

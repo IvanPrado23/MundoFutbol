@@ -138,7 +138,7 @@ export function CartDrawer() {
                   {items.map((it) => (
                     <div key={it.key} className="pt-3 first:pt-0 flex gap-3 items-center">
                       {/* Thumbnail */}
-                      <div className="w-16 h-20 rounded-xl bg-slate-50 border border-slate-200 overflow-hidden relative flex-shrink-0">
+                      <div className="w-16 h-20 rounded-xl bg-white border border-slate-200 overflow-hidden relative flex-shrink-0">
                         <Image
                           src={it.image || "/logo.jpg"}
                           alt={it.name}

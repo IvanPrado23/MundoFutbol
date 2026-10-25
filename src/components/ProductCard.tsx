@@ -71,7 +71,7 @@ export function ProductCard({ product }: ProductCardProps) {
         </button>
 
         {/* Image Container */}
-        <div className="relative aspect-[3/4] bg-slate-50 overflow-hidden flex items-center justify-center p-3 sm:p-4">
+        <div className="relative aspect-[3/4] bg-white overflow-hidden flex items-center justify-center p-3 sm:p-4">
           <Link href={`/producto/${product.slug}`} className="w-full h-full relative block">
             <Image
               src={product.images[0] || "/logo.jpg"}

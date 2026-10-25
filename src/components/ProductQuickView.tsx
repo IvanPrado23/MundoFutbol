@@ -84,7 +84,7 @@ export function ProductQuickView({ product, onClose }: QuickViewProps) {
         </button>
 
         {/* Product Media Column */}
-        <div className="w-full md:w-1/2 bg-slate-50 p-6 flex flex-col items-center justify-center relative border-b md:border-b-0 md:border-r border-slate-100">
+        <div className="w-full md:w-1/2 bg-white p-6 flex flex-col items-center justify-center relative border-b md:border-b-0 md:border-r border-slate-100">
           <div className="relative w-full aspect-[3/4] max-h-80 md:max-h-full">
             <Image
               src={product.images[selectedImage] || product.images[0] || "/logo.jpg"}

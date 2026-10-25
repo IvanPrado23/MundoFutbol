@@ -151,7 +151,7 @@ function ProductDetailInner({ params }: ProductPageProps) {
         
         {/* Left Column: Images Gallery */}
         <div className="lg:col-span-6 space-y-4">
-          <div className="relative aspect-[3/4] bg-slate-50 rounded-3xl overflow-hidden border border-slate-100 flex items-center justify-center p-6">
+          <div className="relative aspect-[3/4] bg-white rounded-3xl overflow-hidden border border-slate-100 flex items-center justify-center p-6">
             <Image
               src={product.images[selectedImg] || product.images[0] || "/logo.jpg"}
               alt={product.name}
@@ -217,7 +217,7 @@ function ProductDetailInner({ params }: ProductPageProps) {
                 <button
                   key={idx}
                   onClick={() => setSelectedImg(idx)}
-                  className={`w-20 h-20 relative rounded-2xl overflow-hidden border-2 transition-all flex-shrink-0 bg-slate-50 ${
+                  className={`w-20 h-20 relative rounded-2xl overflow-hidden border-2 transition-all flex-shrink-0 bg-white ${
                     selectedImg === idx ? "border-cyan-500 scale-105 shadow-md" : "border-slate-200 opacity-70"
                   }`}
                 >
