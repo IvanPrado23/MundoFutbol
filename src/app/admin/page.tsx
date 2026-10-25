@@ -154,16 +154,25 @@ export default function AdminPage() {
         setAuthLoading(false);
       }
     } else {
-      // Si definiste NEXT_PUBLIC_ADMIN_PASSWORD en .env.local, se valida aquí:
-      const requiredPass = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;
-      if (requiredPass && loginPass !== requiredPass) {
-        setAuthError("Contraseña incorrecta. Verifica tu clave de administrador.");
+      try {
+        const res = await fetch("/api/admin/login", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email, password: loginPass }),
+        });
+        const data = await res.json();
+        if (!res.ok) {
+          setAuthError(data.error || "Contraseña o credenciales incorrectas.");
+          setAuthLoading(false);
+          return;
+        }
+        setCurrentUserEmail(email);
+        localStorage.setItem("mf-admin-session", email);
+      } catch {
+        setAuthError("No se pudo conectar con el servidor para validar la contraseña.");
+      } finally {
         setAuthLoading(false);
-        return;
       }
-      setCurrentUserEmail(email);
-      localStorage.setItem("mf-admin-session", email);
-      setAuthLoading(false);
     }
   };
 
