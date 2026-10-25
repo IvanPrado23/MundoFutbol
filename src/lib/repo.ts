@@ -67,8 +67,23 @@ async function localDefaults(col: CollectionName): Promise<Entity[]> {
 
 async function localList<T extends Entity>(col: CollectionName): Promise<T[]> {
   const stored = lsGet<T[]>(col);
-  if (stored) return stored;
+  if (stored) {
+    // Si los productos guardados en caché local tienen nombres genéricos antiguos ("Retro #1", etc.),
+    // actualizamos automáticamente a los nombres reales del seed actualizado.
+    if (col === "products") {
+      const hasOldGenericNames = (stored as unknown as Product[]).some(
+        (p) => p.name && /#(?:[0-9]+)/.test(p.name)
+      );
+      if (!hasOldGenericNames) return stored;
+    } else if (col === "teams") {
+      // Si la lista de equipos en local tiene menos equipos que el nuevo DEFAULT_TEAMS, actualizar
+      if (stored.length >= DEFAULT_TEAMS.length) return stored;
+    } else {
+      return stored;
+    }
+  }
   const def = (await localDefaults(col)) as T[];
+  lsSet(col, def);
   return def;
 }
 

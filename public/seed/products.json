@@ -1,12 +1,12 @@
 [
   {
     "id": "retro-general-01",
-    "name": "Retro #1",
-    "slug": "retro-general-01",
+    "name": "Camiseta Manchester City Visitante 1997/98 Retro Kappa",
+    "slug": "camiseta-manchester-city-visitante-1997-98-retro-kappa",
     "categorySlug": "retro",
-    "teamSlug": null,
+    "teamSlug": "manchester-city",
     "forWomen": false,
-    "description": "",
+    "description": "Mítica camiseta suplente del Manchester City temporada 1997-1998, confeccionada por Kappa con el patrocinador clásico Brother y cuello tipo polo.",
     "images": [
       "/seed/products/retro-general-01.webp"
     ],
@@ -46,12 +46,12 @@
   },
   {
     "id": "retro-general-02",
-    "name": "Retro #2",
-    "slug": "retro-general-02",
+    "name": "Camiseta Francia Local Final Mundial 1998 Zidane #10",
+    "slug": "camiseta-francia-local-final-mundial-1998-zidane-10",
     "categorySlug": "retro",
-    "teamSlug": null,
+    "teamSlug": "francia",
     "forWomen": false,
-    "description": "",
+    "description": "Histórica camiseta de la Selección Francesa campeona del mundo en Francia 98 con dorsal de Zinedine Zidane y bordado conmemorativo de la gran final.",
     "images": [
       "/seed/products/retro-general-02.webp"
     ],
@@ -91,12 +91,12 @@
   },
   {
     "id": "retro-general-03",
-    "name": "Retro #3",
-    "slug": "retro-general-03",
+    "name": "Camiseta Inter de Milán Final Champions 2010 Pirelli",
+    "slug": "camiseta-inter-de-milan-final-champions-2010-pirelli",
     "categorySlug": "retro",
-    "teamSlug": null,
+    "teamSlug": "inter-de-milan",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta nerazzurra de la consagración del histórico triplete en Madrid 2010. Detalle conmemorativo de la final de la Champions League y patrocinador Pirelli.",
     "images": [
       "/seed/products/retro-general-03.webp"
     ],
@@ -136,12 +136,12 @@
   },
   {
     "id": "retro-general-04",
-    "name": "Retro #4",
-    "slug": "retro-general-04",
+    "name": "Camiseta Inter de Milán Visitante 2024/25 Betsson Sport",
+    "slug": "camiseta-inter-de-milan-visitante-2024-25-betsson-sport",
     "categorySlug": "retro",
-    "teamSlug": null,
+    "teamSlug": "inter-de-milan",
     "forWomen": false,
-    "description": "",
+    "description": "Indumentaria alternativa del Inter de Milán con escudo del Scudetto, cuello estilizado y detalles en azul marino profundo.",
     "images": [
       "/seed/products/retro-general-04.webp"
     ],
@@ -181,12 +181,12 @@
   },
   {
     "id": "retro-general-05",
-    "name": "Retro #5",
-    "slug": "retro-general-05",
+    "name": "Camiseta Millonarios Retro 1996 Cerveza Leona #10",
+    "slug": "camiseta-millonarios-retro-1996-cerveza-leona-10",
     "categorySlug": "retro",
-    "teamSlug": null,
+    "teamSlug": "millonarios",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta clásica de colección de Millonarios FC con el icónico patrocinador Cerveza Leona, cuello blanco abotonado y número 10.",
     "images": [
       "/seed/products/retro-general-05.webp"
     ],
@@ -226,12 +226,12 @@
   },
   {
     "id": "retro-general-06",
-    "name": "Retro #6",
-    "slug": "retro-general-06",
+    "name": "Camiseta Millonarios Edición Especial Clásica Colombiana",
+    "slug": "camiseta-millonarios-edicion-especial-clasica-colombiana",
     "categorySlug": "retro",
-    "teamSlug": null,
+    "teamSlug": "millonarios",
     "forWomen": false,
-    "description": "",
+    "description": "Edición conmemorativa de Millonarios en azul rey con delgadas líneas verticales blancas y patrocinador clásico Colombiana La Nuestra.",
     "images": [
       "/seed/products/retro-general-06.webp"
     ],
@@ -271,12 +271,12 @@
   },
   {
     "id": "retro-general-07",
-    "name": "Retro #7",
-    "slug": "retro-general-07",
+    "name": "Camiseta River Plate Retro 1999/00 Blanca Adidas",
+    "slug": "camiseta-river-plate-retro-1999-00-blanca-adidas",
     "categorySlug": "retro",
-    "teamSlug": null,
+    "teamSlug": "river-plate",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta retro clásica de River Plate de finales de los 90 con cuello polo negro y el escudo tradicional del CARP.",
     "images": [
       "/seed/products/retro-general-07.webp"
     ],
@@ -316,12 +316,12 @@
   },
   {
     "id": "retro-general-08",
-    "name": "Retro #8",
-    "slug": "retro-general-08",
+    "name": "Camiseta Argentina Visitante Mundial USA 1994 Maradona #10",
+    "slug": "camiseta-argentina-visitante-mundial-usa-1994-maradona-10",
     "categorySlug": "retro",
-    "teamSlug": null,
+    "teamSlug": "argentina",
     "forWomen": false,
-    "description": "",
+    "description": "Legendaria camiseta suplente azul de la Selección Argentina en el Mundial USA 94 con rombos negros laterales y el 10 de Diego Armando Maradona.",
     "images": [
       "/seed/products/retro-general-08.webp"
     ],
@@ -361,12 +361,12 @@
   },
   {
     "id": "retro-general-09",
-    "name": "Retro #9",
-    "slug": "retro-general-09",
+    "name": "Camiseta Boca Juniors Local 2000 Quilmes Campeón Intercontinental",
+    "slug": "camiseta-boca-juniors-local-2000-quilmes-campeon-intercontinental",
     "categorySlug": "retro",
-    "teamSlug": null,
+    "teamSlug": "boca-juniors",
     "forWomen": false,
-    "description": "",
+    "description": "La emblemática camiseta xeneize del año 2000 con franja dorada y patrocinador Quilmes, con la que Boca se coronó campeón del mundo en Tokio ante el Real Madrid.",
     "images": [
       "/seed/products/retro-general-09.webp"
     ],
@@ -406,12 +406,12 @@
   },
   {
     "id": "retro-liverpool-01",
-    "name": "Liverpool Retro #1",
-    "slug": "retro-liverpool-01",
+    "name": "Camiseta Liverpool Visitante Retro 1995/96 Verde y Blanca Carlsberg",
+    "slug": "camiseta-liverpool-visitante-retro-1995-96-verde-y-blanca-carlsberg",
     "categorySlug": "retro",
     "teamSlug": "liverpool",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta histórica de visitante del Liverpool a cuatro cuadrantes en verde esmeralda y blanco con el icónico patrocinador Carlsberg.",
     "images": [
       "/seed/products/retro-liverpool-01.webp"
     ],
@@ -451,12 +451,12 @@
   },
   {
     "id": "retro-liverpool-02",
-    "name": "Liverpool Retro #2",
-    "slug": "retro-liverpool-02",
+    "name": "Camiseta Liverpool Edición Especial Blackout Carlsberg",
+    "slug": "camiseta-liverpool-edicion-especial-blackout-carlsberg",
     "categorySlug": "retro",
     "teamSlug": "liverpool",
     "forWomen": false,
-    "description": "",
+    "description": "Exclusiva versión total black (Blackout) del Liverpool con detalles monocromáticos oscuros y patrocinador Carlsberg.",
     "images": [
       "/seed/products/retro-liverpool-02.webp"
     ],
@@ -496,12 +496,12 @@
   },
   {
     "id": "retro-liverpool-03",
-    "name": "Liverpool Retro #3",
-    "slug": "retro-liverpool-03",
+    "name": "Camiseta Liverpool Visitante Retro 1996/97 Crema Carlsberg",
+    "slug": "camiseta-liverpool-visitante-retro-1996-97-crema-carlsberg",
     "categorySlug": "retro",
     "teamSlug": "liverpool",
     "forWomen": false,
-    "description": "",
+    "description": "Elegante indumentaria visitante de los Reds en color marfil/crema con cuello bicolor y escudo ovalado vintage.",
     "images": [
       "/seed/products/retro-liverpool-03.webp"
     ],
@@ -541,12 +541,12 @@
   },
   {
     "id": "retro-liverpool-04",
-    "name": "Liverpool Retro #4",
-    "slug": "retro-liverpool-04",
+    "name": "Camiseta Liverpool Local Retro 1996/98 Reebok Carlsberg",
+    "slug": "camiseta-liverpool-local-retro-1996-98-reebok-carlsberg",
     "categorySlug": "retro",
     "teamSlug": "liverpool",
     "forWomen": false,
-    "description": "",
+    "description": "Clásica camiseta titular roja de Anfield de la era de Robbie Fowler y Michael Owen con cuello en V blanco y escudo de época.",
     "images": [
       "/seed/products/retro-liverpool-04.webp"
     ],
@@ -586,12 +586,12 @@
   },
   {
     "id": "retro-liverpool-05",
-    "name": "Liverpool Retro #5",
-    "slug": "retro-liverpool-05",
+    "name": "Camiseta Liverpool Visitante Final FA Cup 2001 Amarilla Carlsberg",
+    "slug": "camiseta-liverpool-visitante-final-fa-cup-2001-amarilla-carlsberg",
     "categorySlug": "retro",
     "teamSlug": "liverpool",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta amarilla de la histórica final de la FA Cup 2001 en Cardiff con la recordada remontada de Michael Owen.",
     "images": [
       "/seed/products/retro-liverpool-05.webp"
     ],
@@ -631,12 +631,12 @@
   },
   {
     "id": "retro-ac-milan-01",
-    "name": "AC Milan Retro #1",
-    "slug": "retro-ac-milan-01",
+    "name": "Camiseta AC Milan Visitante Retro 2002/03 Opel Campeón Champions",
+    "slug": "camiseta-ac-milan-visitante-retro-2002-03-opel-campeon-champions",
     "categorySlug": "retro",
     "teamSlug": "ac-milan",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta blanca de gala del AC Milan con franja central vertical rossonera y patrocinador Opel, campeona de Europa en Old Trafford.",
     "images": [
       "/seed/products/retro-ac-milan-01.webp"
     ],
@@ -676,12 +676,12 @@
   },
   {
     "id": "retro-ac-milan-02",
-    "name": "AC Milan Retro #2",
-    "slug": "retro-ac-milan-02",
+    "name": "Camiseta AC Milan Tercera Equipación Retro 2003/04 Negra Opel",
+    "slug": "camiseta-ac-milan-tercera-equipacion-retro-2003-04-negra-opel",
     "categorySlug": "retro",
     "teamSlug": "ac-milan",
     "forWomen": false,
-    "description": "",
+    "description": "Tercera camiseta negra del AC Milan temporada 2003-2004 con cuello rojo y detalles clásicos de la época dorada de Shevchenko y Kaká.",
     "images": [
       "/seed/products/retro-ac-milan-02.webp"
     ],
@@ -721,12 +721,12 @@
   },
   {
     "id": "retro-ac-milan-03",
-    "name": "AC Milan Retro #3",
-    "slug": "retro-ac-milan-03",
+    "name": "Camiseta AC Milan Local 2006/07 Bwin Ronaldo #99",
+    "slug": "camiseta-ac-milan-local-2006-07-bwin-ronaldo-99",
     "categorySlug": "retro",
     "teamSlug": "ac-milan",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta titular rossonera temporada 2006-2007 con el mítico dorsal 99 de Ronaldo Nazário 'El Fenómeno'.",
     "images": [
       "/seed/products/retro-ac-milan-03.webp"
     ],
@@ -766,12 +766,12 @@
   },
   {
     "id": "retro-ac-milan-04",
-    "name": "AC Milan Retro #4",
-    "slug": "retro-ac-milan-04",
+    "name": "Camiseta AC Milan Tercera Equipación 2006/07 Negra y Dorada Bwin",
+    "slug": "camiseta-ac-milan-tercera-equipacion-2006-07-negra-y-dorada-bwin",
     "categorySlug": "retro",
     "teamSlug": "ac-milan",
     "forWomen": false,
-    "description": "",
+    "description": "Diseño alternativo en negro con detalles dorados y rojos de la temporada en la que el Milan levantó su séptima Champions League en Atenas.",
     "images": [
       "/seed/products/retro-ac-milan-04.webp"
     ],
@@ -811,12 +811,12 @@
   },
   {
     "id": "retro-barcelona-01",
-    "name": "Barcelona Retro #1",
-    "slug": "retro-barcelona-01",
+    "name": "Camiseta FC Barcelona Local 2005/06 Ronaldinho #10",
+    "slug": "camiseta-fc-barcelona-local-2005-06-ronaldinho-10",
     "categorySlug": "retro",
     "teamSlug": "barcelona",
     "forWomen": false,
-    "description": "",
+    "description": "La legendaria camiseta blaugrana con la que Ronaldinho conquistó La Liga, la Champions League de París 2006 y el Balón de Oro.",
     "images": [
       "/seed/products/retro-barcelona-01.webp"
     ],
@@ -856,12 +856,12 @@
   },
   {
     "id": "retro-barcelona-02",
-    "name": "Barcelona Retro #2",
-    "slug": "retro-barcelona-02",
+    "name": "Camiseta FC Barcelona Visitante Retro 2002/03 Crema / Beige",
+    "slug": "camiseta-fc-barcelona-visitante-retro-2002-03-crema-beige",
     "categorySlug": "retro",
     "teamSlug": "barcelona",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta visitante de colección en tono crema con franjas blaugrana laterales y escudo centrado en el pecho.",
     "images": [
       "/seed/products/retro-barcelona-02.webp"
     ],
@@ -901,12 +901,12 @@
   },
   {
     "id": "retro-barcelona-03",
-    "name": "Barcelona Retro #3",
-    "slug": "retro-barcelona-03",
+    "name": "Camiseta FC Barcelona Alternativa 2011/12 Azul Petróleo",
+    "slug": "camiseta-fc-barcelona-alternativa-2011-12-azul-petroleo",
     "categorySlug": "retro",
     "teamSlug": "barcelona",
     "forWomen": false,
-    "description": "",
+    "description": "Edición alternativa en tonalidades azules de la era dorada de Pep Guardiola y Lionel Messi.",
     "images": [
       "/seed/products/retro-barcelona-03.webp"
     ],
@@ -946,12 +946,12 @@
   },
   {
     "id": "retro-barcelona-04",
-    "name": "Barcelona Retro #4",
-    "slug": "retro-barcelona-04",
+    "name": "Camiseta FC Barcelona Centenario 1899-1999 Nike",
+    "slug": "camiseta-fc-barcelona-centenario-1899-1999-nike",
     "categorySlug": "retro",
     "teamSlug": "barcelona",
     "forWomen": false,
-    "description": "",
+    "description": "La emblemática camiseta conmemorativa dividida al medio en azul y grana con fechas de centenario bordadas en el pecho.",
     "images": [
       "/seed/products/retro-barcelona-04.webp"
     ],
@@ -991,12 +991,12 @@
   },
   {
     "id": "retro-barcelona-05",
-    "name": "Barcelona Retro #5",
-    "slug": "retro-barcelona-05",
+    "name": "Camiseta FC Barcelona Visitante 2016/17 Morada Qatar Airways",
+    "slug": "camiseta-fc-barcelona-visitante-2016-17-morada-qatar-airways",
     "categorySlug": "retro",
     "teamSlug": "barcelona",
     "forWomen": false,
-    "description": "",
+    "description": "Innovadora equipación visitante en color violeta/púrpura con toques rosa fluorescente del tridente MSN (Messi, Suárez, Neymar).",
     "images": [
       "/seed/products/retro-barcelona-05.webp"
     ],
@@ -1036,12 +1036,12 @@
   },
   {
     "id": "retro-barcelona-06",
-    "name": "Barcelona Retro #6",
-    "slug": "retro-barcelona-06",
+    "name": "Camiseta FC Barcelona Retro Clásica Granate y Azul 'Barça'",
+    "slug": "camiseta-fc-barcelona-retro-clasica-granate-y-azul-bar-a",
     "categorySlug": "retro",
     "teamSlug": "barcelona",
     "forWomen": false,
-    "description": "",
+    "description": "Inspirada en las raíces del club catalán con cuello en V blanco, franjas clásicas y la tipografía tradicional Barça bordada.",
     "images": [
       "/seed/products/retro-barcelona-06.webp"
     ],
@@ -1081,12 +1081,12 @@
   },
   {
     "id": "retro-barcelona-07",
-    "name": "Barcelona Retro #7",
-    "slug": "retro-barcelona-07",
+    "name": "Camiseta FC Barcelona Final Champions Wembley 2011 Unicef",
+    "slug": "camiseta-fc-barcelona-final-champions-wembley-2011-unicef",
     "categorySlug": "retro",
     "teamSlug": "barcelona",
     "forWomen": false,
-    "description": "",
+    "description": "Considerada una de las mejores noches de fútbol de la historia. Camiseta de la final de Champions 2011 en Wembley ante el Manchester United.",
     "images": [
       "/seed/products/retro-barcelona-07.webp"
     ],
@@ -1126,12 +1126,12 @@
   },
   {
     "id": "retro-real-madrid-01",
-    "name": "Real Madrid Retro #1",
-    "slug": "retro-real-madrid-01",
+    "name": "Camiseta Real Madrid Visitante Retro 2004/05 Azul Siemens",
+    "slug": "camiseta-real-madrid-visitante-retro-2004-05-azul-siemens",
     "categorySlug": "retro",
     "teamSlug": "real-madrid",
     "forWomen": false,
-    "description": "",
+    "description": "Elegante indumentaria suplente en azul marino de la época de Los Galácticos (Zidane, Ronaldo, Beckham, Raúl, Figo, Roberto Carlos).",
     "images": [
       "/seed/products/retro-real-madrid-01.webp"
     ],
@@ -1171,12 +1171,12 @@
   },
   {
     "id": "retro-real-madrid-02",
-    "name": "Real Madrid Retro #2",
-    "slug": "retro-real-madrid-02",
+    "name": "Camiseta Real Madrid Local Retro 2003/04 Siemens Mobile",
+    "slug": "camiseta-real-madrid-local-retro-2003-04-siemens-mobile",
     "categorySlug": "retro",
     "teamSlug": "real-madrid",
     "forWomen": false,
-    "description": "",
+    "description": "El blanco inmaculado de Chamartín con cuello en V y patrocinador Siemens Mobile de una de las nóminas más recordadas del fútbol mundial.",
     "images": [
       "/seed/products/retro-real-madrid-02.webp"
     ],
@@ -1216,12 +1216,12 @@
   },
   {
     "id": "retro-real-madrid-03",
-    "name": "Real Madrid Retro #3",
-    "slug": "retro-real-madrid-03",
+    "name": "Camiseta Real Madrid Visitante Retro 2006/07 Morada BenQ Siemens",
+    "slug": "camiseta-real-madrid-visitante-retro-2006-07-morada-benq-siemens",
     "categorySlug": "retro",
     "teamSlug": "real-madrid",
     "forWomen": false,
-    "description": "",
+    "description": "Diseño con plantilla Teamgeist en color morado oscuro con paneles curvos blancos, campeona de La Liga de las remontadas.",
     "images": [
       "/seed/products/retro-real-madrid-03.webp"
     ],
@@ -1261,12 +1261,12 @@
   },
   {
     "id": "retro-real-madrid-04",
-    "name": "Real Madrid Retro #4",
-    "slug": "retro-real-madrid-04",
+    "name": "Camiseta Real Madrid Tercera Equipación 2017/18 Carbón y Turquesa",
+    "slug": "camiseta-real-madrid-tercera-equipacion-2017-18-carbon-y-turquesa",
     "categorySlug": "retro",
     "teamSlug": "real-madrid",
     "forWomen": false,
-    "description": "",
+    "description": "Tercera equipación en gris carbón y vivos verde azulado/turquesa de la temporada de la 13ª Champions League conseguida en Kiev.",
     "images": [
       "/seed/products/retro-real-madrid-04.webp"
     ],
@@ -1306,12 +1306,12 @@
   },
   {
     "id": "retro-real-madrid-05",
-    "name": "Real Madrid Retro #5",
-    "slug": "retro-real-madrid-05",
+    "name": "Camiseta Real Madrid Local 2017/18 Blanca y Turquesa Fly Emirates",
+    "slug": "camiseta-real-madrid-local-2017-18-blanca-y-turquesa-fly-emirates",
     "categorySlug": "retro",
     "teamSlug": "real-madrid",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta titular con detalles en azul turquesa en hombros y pecho con la que el Real Madrid logró el histórico tricampeonato consecutivo de Champions.",
     "images": [
       "/seed/products/retro-real-madrid-05.webp"
     ],
@@ -1351,12 +1351,12 @@
   },
   {
     "id": "retro-real-madrid-06",
-    "name": "Real Madrid Retro #6",
-    "slug": "retro-real-madrid-06",
+    "name": "Camiseta Real Madrid Tercera Equipación 2017/18 Turquesa Pixelada",
+    "slug": "camiseta-real-madrid-tercera-equipacion-2017-18-turquesa-pixelada",
     "categorySlug": "retro",
     "teamSlug": "real-madrid",
     "forWomen": false,
-    "description": "",
+    "description": "Llamativo diseño en azul turquesa con patrón geométrico pixelado en el torso y escudo del Real Madrid monocromático blanco.",
     "images": [
       "/seed/products/retro-real-madrid-06.webp"
     ],
@@ -1396,12 +1396,12 @@
   },
   {
     "id": "retro-real-madrid-07",
-    "name": "Real Madrid Retro #7",
-    "slug": "retro-real-madrid-07",
+    "name": "Camiseta Real Madrid Retro 1999/00 Negra y Dorada Teka La Octava",
+    "slug": "camiseta-real-madrid-retro-1999-00-negra-y-dorada-teka-la-octava",
     "categorySlug": "retro",
     "teamSlug": "real-madrid",
     "forWomen": false,
-    "description": "",
+    "description": "La mítica camiseta suplente negra con vivos dorados de la final de Champions League en París 2000 donde el Madrid conquistó la Octava Copa de Europa.",
     "images": [
       "/seed/products/retro-real-madrid-07.webp"
     ],
@@ -1441,12 +1441,12 @@
   },
   {
     "id": "retro-real-madrid-08",
-    "name": "Real Madrid Retro #8",
-    "slug": "retro-real-madrid-08",
+    "name": "Camiseta Real Madrid Edición Especial Dragón Yamamoto 2014/15 Manga Larga",
+    "slug": "camiseta-real-madrid-edicion-especial-dragon-yamamoto-2014-15-manga-larga",
     "categorySlug": "retro",
     "teamSlug": "real-madrid",
     "forWomen": false,
-    "description": "",
+    "description": "Pieza de culto diseñada por Yohji Yamamoto con la ilustración del dragón blanco sobre base negra y cuello abotonado en manga larga.",
     "images": [
       "/seed/products/retro-real-madrid-08.webp"
     ],
@@ -1486,12 +1486,12 @@
   },
   {
     "id": "mundialistas-general-01",
-    "name": "Mundialista #1",
-    "slug": "mundialistas-general-01",
+    "name": "Camiseta Selección España Local Eurocopa 2024 Campeón",
+    "slug": "camiseta-seleccion-espana-local-eurocopa-2024-campeon",
     "categorySlug": "mundialistas",
-    "teamSlug": null,
+    "teamSlug": "espana",
     "forWomen": false,
-    "description": "",
+    "description": "La indumentaria roja con detalles amarillos y azul marino con la que La Roja deslumbró y se coronó campeona de la Eurocopa 2024.",
     "images": [
       "/seed/products/mundialistas-general-01.webp"
     ],
@@ -1531,12 +1531,12 @@
   },
   {
     "id": "mundialistas-general-02",
-    "name": "Mundialista #2",
-    "slug": "mundialistas-general-02",
+    "name": "Camiseta Argentina Local Campeón del Mundo 3 Estrellas 2024",
+    "slug": "camiseta-argentina-local-campeon-del-mundo-3-estrellas-2024",
     "categorySlug": "mundialistas",
-    "teamSlug": null,
+    "teamSlug": "argentina",
     "forWomen": false,
-    "description": "",
+    "description": "La camiseta albiceleste con el escudo oficial de la AFA con 3 estrellas bordadas y el parche dorado de Campeón del Mundo FIFA en el pecho.",
     "images": [
       "/seed/products/mundialistas-general-02.webp"
     ],
@@ -1576,12 +1576,12 @@
   },
   {
     "id": "mundialistas-general-03",
-    "name": "Mundialista #3",
-    "slug": "mundialistas-general-03",
+    "name": "Camiseta Brasil Local Copa América 2024",
+    "slug": "camiseta-brasil-local-copa-america-2024",
     "categorySlug": "mundialistas",
-    "teamSlug": null,
+    "teamSlug": "brasil",
     "forWomen": false,
-    "description": "",
+    "description": "El clásico verdeamarelo con textura inspirada en la fauna y flora de Brasil, escudo centrado en el pecho y cuello verde.",
     "images": [
       "/seed/products/mundialistas-general-03.webp"
     ],
@@ -1621,12 +1621,12 @@
   },
   {
     "id": "mundialistas-general-04",
-    "name": "Mundialista #4",
-    "slug": "mundialistas-general-04",
+    "name": "Camiseta Alemania Local Retro Mundial Italia 1990 Adidas",
+    "slug": "camiseta-alemania-local-retro-mundial-italia-1990-adidas",
     "categorySlug": "mundialistas",
-    "teamSlug": null,
+    "teamSlug": "alemania",
     "forWomen": false,
-    "description": "",
+    "description": "Una de las camisetas más icónicas de la historia del fútbol: gráfico tricolor negro, rojo y amarillo cruzando el pecho, campeona del mundo en 1990.",
     "images": [
       "/seed/products/mundialistas-general-04.webp"
     ],
@@ -1666,12 +1666,12 @@
   },
   {
     "id": "mundialistas-general-05",
-    "name": "Mundialista #5",
-    "slug": "mundialistas-general-05",
+    "name": "Camiseta Alemania Visitante Azul Marino Adidas Originals",
+    "slug": "camiseta-alemania-visitante-azul-marino-adidas-originals",
     "categorySlug": "mundialistas",
-    "teamSlug": null,
+    "teamSlug": "alemania",
     "forWomen": false,
-    "description": "",
+    "description": "Elegante edición retro Originals de la Mannschaft en azul marino profundo con cuello y puños en tono menta y el trébol clásico de Adidas.",
     "images": [
       "/seed/products/mundialistas-general-05.webp"
     ],
@@ -1711,12 +1711,12 @@
   },
   {
     "id": "mundialistas-general-06",
-    "name": "Mundialista #6",
-    "slug": "mundialistas-general-06",
+    "name": "Camiseta España Visitante Retro Originals Crema",
+    "slug": "camiseta-espana-visitante-retro-originals-crema",
     "categorySlug": "mundialistas",
-    "teamSlug": null,
+    "teamSlug": "espana",
     "forWomen": false,
-    "description": "",
+    "description": "Diseño vintage en color crema con cuello y mangas en tono granate con detalles dorados y el logo clásico de Adidas Originals.",
     "images": [
       "/seed/products/mundialistas-general-06.webp"
     ],
@@ -1756,12 +1756,12 @@
   },
   {
     "id": "mundialistas-general-07",
-    "name": "Mundialista #7",
-    "slug": "mundialistas-general-07",
+    "name": "Camiseta Argentina Edición Especial Barroco Floral Negra y Azul",
+    "slug": "camiseta-argentina-edicion-especial-barroco-floral-negra-y-azul",
     "categorySlug": "mundialistas",
-    "teamSlug": null,
+    "teamSlug": "argentina",
     "forWomen": false,
-    "description": "",
+    "description": "Espectacular edición especial con filigrana ornamental barroca en azul eléctrico sobre fondo negro azabache, escudo AFA 3 estrellas y parche FIFA.",
     "images": [
       "/seed/products/mundialistas-general-07.webp"
     ],
@@ -1801,12 +1801,12 @@
   },
   {
     "id": "mundialistas-general-08",
-    "name": "Mundialista #8",
-    "slug": "mundialistas-general-08",
+    "name": "Camiseta Brasil Concept Tercera Negra y Azul Jordan",
+    "slug": "camiseta-brasil-concept-tercera-negra-y-azul-jordan",
     "categorySlug": "mundialistas",
-    "teamSlug": null,
+    "teamSlug": "brasil",
     "forWomen": false,
-    "description": "",
+    "description": "Diseño vanguardista en negro y azul eléctrico con escudo y detalles en dorado metalizado de la Canarinha.",
     "images": [
       "/seed/products/mundialistas-general-08.webp"
     ],
@@ -1846,12 +1846,12 @@
   },
   {
     "id": "internacionales-general-01",
-    "name": "Internacional 1:1 #1",
-    "slug": "internacionales-general-01",
+    "name": "Camiseta FC Barcelona Local 2023/24 Spotify",
+    "slug": "camiseta-fc-barcelona-local-2023-24-spotify",
     "categorySlug": "internacionales",
-    "teamSlug": null,
+    "teamSlug": "barcelona",
     "forWomen": false,
-    "description": "",
+    "description": "Franjas anchas blaugrana clásicas con el detalle del rombo del escudo femenino integrado en la trama y patrocinador Spotify en amarillo.",
     "images": [
       "/seed/products/internacionales-general-01.webp"
     ],
@@ -1891,12 +1891,12 @@
   },
   {
     "id": "internacionales-general-02",
-    "name": "Internacional 1:1 #2",
-    "slug": "internacionales-general-02",
+    "name": "Camiseta FC Barcelona Visitante 2024/25 Total Black Spotify",
+    "slug": "camiseta-fc-barcelona-visitante-2024-25-total-black-spotify",
     "categorySlug": "internacionales",
-    "teamSlug": null,
+    "teamSlug": "barcelona",
     "forWomen": false,
-    "description": "",
+    "description": "Impactante equipación suplente totalmente negra con detalles laterales en rojo y azul y el logotipo de Spotify centrado.",
     "images": [
       "/seed/products/internacionales-general-02.webp"
     ],
@@ -1936,12 +1936,12 @@
   },
   {
     "id": "internacionales-general-03",
-    "name": "Internacional 1:1 #3",
-    "slug": "internacionales-general-03",
+    "name": "Camiseta FC Barcelona Edición Especial Mamba Negra y Morada Spotify",
+    "slug": "camiseta-fc-barcelona-edicion-especial-mamba-negra-y-morada-spotify",
     "categorySlug": "internacionales",
-    "teamSlug": null,
+    "teamSlug": "barcelona",
     "forWomen": false,
-    "description": "",
+    "description": "Homenaje a Kobe Bryant y la 'Mamba Mentality', fusionando el negro, púrpura y dorado con el sheath logo de Kobe y escudo del Barça.",
     "images": [
       "/seed/products/internacionales-general-03.webp"
     ],
@@ -1981,12 +1981,12 @@
   },
   {
     "id": "internacionales-general-04",
-    "name": "Internacional 1:1 #4",
-    "slug": "internacionales-general-04",
+    "name": "Camiseta FC Barcelona Retro Clásica Polo Franjas Granate y Azul",
+    "slug": "camiseta-fc-barcelona-retro-clasica-polo-franjas-granate-y-azul",
     "categorySlug": "internacionales",
-    "teamSlug": null,
+    "teamSlug": "barcelona",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta retro de estilo vintage con cuello polo en pico blanco, finas líneas blaugranas y bordado tradicional 'Barça'.",
     "images": [
       "/seed/products/internacionales-general-04.webp"
     ],
@@ -2026,12 +2026,12 @@
   },
   {
     "id": "internacionales-general-05",
-    "name": "Internacional 1:1 #5",
-    "slug": "internacionales-general-05",
+    "name": "Camiseta Real Madrid Tercera Equipación 2024/25 Azul Rey Adidas Originals",
+    "slug": "camiseta-real-madrid-tercera-equipacion-2024-25-azul-rey-adidas-originals",
     "categorySlug": "internacionales",
-    "teamSlug": null,
+    "teamSlug": "real-madrid",
     "forWomen": false,
-    "description": "",
+    "description": "Tercera equipación en azul rey con el icónico logo Trefoil (trébol) de Adidas Originals y elegante cuello polo.",
     "images": [
       "/seed/products/internacionales-general-05.webp"
     ],
@@ -2071,12 +2071,12 @@
   },
   {
     "id": "internacionales-general-06",
-    "name": "Internacional 1:1 #6",
-    "slug": "internacionales-general-06",
+    "name": "Camiseta Real Madrid Visitante 2023/24 Blanca con Detalles Naranja y Azul",
+    "slug": "camiseta-real-madrid-visitante-2023-24-blanca-con-detalles-naranja-y-azul",
     "categorySlug": "internacionales",
-    "teamSlug": null,
+    "teamSlug": "real-madrid",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta alternativa del club merengue con vivos tricolores en los hombros y cuello estilizado.",
     "images": [
       "/seed/products/internacionales-general-06.webp"
     ],
@@ -2116,12 +2116,12 @@
   },
   {
     "id": "internacionales-general-07",
-    "name": "Internacional 1:1 #7",
-    "slug": "internacionales-general-07",
+    "name": "Camiseta Boca Juniors Local 2023/24 Betsson",
+    "slug": "camiseta-boca-juniors-local-2023-24-betsson",
     "categorySlug": "internacionales",
-    "teamSlug": null,
+    "teamSlug": "boca-juniors",
     "forWomen": false,
-    "description": "",
+    "description": "La tradicional camiseta azul y oro del club de la Ribera con diferentes tonalidades de azul texturizado y patrocinador Betsson.",
     "images": [
       "/seed/products/internacionales-general-07.webp"
     ],
@@ -2161,12 +2161,12 @@
   },
   {
     "id": "internacionales-general-08",
-    "name": "Internacional 1:1 #8",
-    "slug": "internacionales-general-08",
+    "name": "Camiseta River Plate Local 2024/25 Betano",
+    "slug": "camiseta-river-plate-local-2024-25-betano",
     "categorySlug": "internacionales",
-    "teamSlug": null,
+    "teamSlug": "river-plate",
     "forWomen": false,
-    "description": "",
+    "description": "La inmortal banda roja cruzando el pecho blanco de River Plate, con vivos rojos en las mangas y patrocinador Betano.",
     "images": [
       "/seed/products/internacionales-general-08.webp"
     ],
@@ -2206,12 +2206,12 @@
   },
   {
     "id": "internacionales-general-09",
-    "name": "Internacional 1:1 #9",
-    "slug": "internacionales-general-09",
+    "name": "Camiseta River Plate Alternativa 2024/25 Negra y Roja Betano",
+    "slug": "camiseta-river-plate-alternativa-2024-25-negra-y-roja-betano",
     "categorySlug": "internacionales",
-    "teamSlug": null,
+    "teamSlug": "river-plate",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta suplente en base negra con franjas verticales rojas y el escudo del Millonario sobre el corazón.",
     "images": [
       "/seed/products/internacionales-general-09.webp"
     ],
@@ -2251,12 +2251,12 @@
   },
   {
     "id": "internacionales-general-10",
-    "name": "Internacional 1:1 #10",
-    "slug": "internacionales-general-10",
+    "name": "Camiseta Manchester City Edición Especial Negra 'Definitely City' Noel Gallagher",
+    "slug": "camiseta-manchester-city-edicion-especial-negra-definitely-city-noel-gallagher",
     "categorySlug": "internacionales",
-    "teamSlug": null,
+    "teamSlug": "manchester-city",
     "forWomen": false,
-    "description": "",
+    "description": "Diseño conmemorativo co-creado con Noel Gallagher celebrando 30 años del álbum 'Definitely Maybe' de Oasis, en color negro.",
     "images": [
       "/seed/products/internacionales-general-10.webp"
     ],
@@ -2296,12 +2296,12 @@
   },
   {
     "id": "internacionales-general-11",
-    "name": "Internacional 1:1 #11",
-    "slug": "internacionales-general-11",
+    "name": "Camiseta Liverpool Tercera Equipación 2025/26 Verde Turquesa Adidas Originals",
+    "slug": "camiseta-liverpool-tercera-equipacion-2025-26-verde-turquesa-adidas-originals",
     "categorySlug": "internacionales",
-    "teamSlug": null,
+    "teamSlug": "liverpool",
     "forWomen": false,
-    "description": "",
+    "description": "El retorno histórico de Adidas con el Liverpool en tono verde menta/turquesa con el escudo vintage de 1987 y logo Trefoil.",
     "images": [
       "/seed/products/internacionales-general-11.webp"
     ],
@@ -2341,12 +2341,12 @@
   },
   {
     "id": "internacionales-general-12",
-    "name": "Internacional 1:1 #12",
-    "slug": "internacionales-general-12",
+    "name": "Camiseta Inter Miami Visitante 2024/25 'La Noche' Negra y Rosa Royal Caribbean",
+    "slug": "camiseta-inter-miami-visitante-2024-25-la-noche-negra-y-rosa-royal-caribbean",
     "categorySlug": "internacionales",
-    "teamSlug": null,
+    "teamSlug": "inter-miami",
     "forWomen": false,
-    "description": "",
+    "description": "La equipación suplente de Lionel Messi y el Inter Miami en negro elegante con vivos rosados y la corona de Royal Caribbean.",
     "images": [
       "/seed/products/internacionales-general-12.webp"
     ],
@@ -2386,12 +2386,12 @@
   },
   {
     "id": "internacionales-general-13",
-    "name": "Internacional 1:1 #13",
-    "slug": "internacionales-general-13",
+    "name": "Camiseta Manchester United Tercera Equipación 2024/25 Adidas Originals Snapdragon",
+    "slug": "camiseta-manchester-united-tercera-equipacion-2024-25-adidas-originals-snapdragon",
     "categorySlug": "internacionales",
-    "teamSlug": null,
+    "teamSlug": "manchester-united",
     "forWomen": false,
-    "description": "",
+    "description": "Tercera camiseta de los Red Devils en color crema con franja horizontal tricolor roja y negra, logo Trefoil y escudo del diablo.",
     "images": [
       "/seed/products/internacionales-general-13.webp"
     ],
@@ -2431,12 +2431,12 @@
   },
   {
     "id": "internacionales-general-14",
-    "name": "Internacional 1:1 #14",
-    "slug": "internacionales-general-14",
+    "name": "Camiseta AC Milan Visitante 2024/25 Blanca Emirates Fly Better",
+    "slug": "camiseta-ac-milan-visitante-2024-25-blanca-emirates-fly-better",
     "categorySlug": "internacionales",
-    "teamSlug": null,
+    "teamSlug": "ac-milan",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta suplente blanca del conjunto rossonero con cuello y remates en rojo y negro, textura fluida y escudo con la estrella dorada.",
     "images": [
       "/seed/products/internacionales-general-14.webp"
     ],
@@ -2476,12 +2476,12 @@
   },
   {
     "id": "internacionales-general-15",
-    "name": "Internacional 1:1 #15",
-    "slug": "internacionales-general-15",
+    "name": "Camiseta Manchester United Local 2024/25 Snapdragon",
+    "slug": "camiseta-manchester-united-local-2024-25-snapdragon",
     "categorySlug": "internacionales",
-    "teamSlug": null,
+    "teamSlug": "manchester-united",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta titular roja con degradado brillante, cuello polo blanco y el estreno del patrocinador tecnológico Snapdragon.",
     "images": [
       "/seed/products/internacionales-general-15.webp"
     ],
@@ -2521,12 +2521,12 @@
   },
   {
     "id": "internacionales-general-16",
-    "name": "Internacional 1:1 #16",
-    "slug": "internacionales-general-16",
+    "name": "Camiseta Inter Miami Edición Especial Retro Tercera Blanca y Turquesa",
+    "slug": "camiseta-inter-miami-edicion-especial-retro-tercera-blanca-y-turquesa",
     "categorySlug": "internacionales",
-    "teamSlug": null,
+    "teamSlug": "inter-miami",
     "forWomen": false,
-    "description": "",
+    "description": "Diseño vintage estilo Miami Dolphins de los años 80 en blanco con detalles verde azulado y el escudo rosado.",
     "images": [
       "/seed/products/internacionales-general-16.webp"
     ],
@@ -2566,12 +2566,12 @@
   },
   {
     "id": "liga-colombiana-general-01",
-    "name": "Liga Colombiana #1",
-    "slug": "liga-colombiana-general-01",
+    "name": "Camiseta Millonarios Local 2024 Azul Adidas Andina",
+    "slug": "camiseta-millonarios-local-2024-azul-adidas-andina",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "millonarios",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta titular del equipo embajador para la temporada 2024 con tecnología de alto rendimiento y detalles blancos en hombros y cuello.",
     "images": [
       "/seed/products/liga-colombiana-general-01.webp"
     ],
@@ -2611,12 +2611,12 @@
   },
   {
     "id": "liga-colombiana-general-02",
-    "name": "Liga Colombiana #2",
-    "slug": "liga-colombiana-general-02",
+    "name": "Camiseta Millonarios Local 2023 Azul Oscuro Texturizada Andina",
+    "slug": "camiseta-millonarios-local-2023-azul-oscuro-texturizada-andina",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "millonarios",
     "forWomen": false,
-    "description": "",
+    "description": "Versión titular de Millonarios en azul marino con tramado geométrico en relieve en el pecho, campeona de Liga.",
     "images": [
       "/seed/products/liga-colombiana-general-02.webp"
     ],
@@ -2656,12 +2656,12 @@
   },
   {
     "id": "liga-colombiana-general-03",
-    "name": "Liga Colombiana #3",
-    "slug": "liga-colombiana-general-03",
+    "name": "Camiseta Millonarios Edición Especial Retro Blanca Adidas Originals",
+    "slug": "camiseta-millonarios-edicion-especial-retro-blanca-adidas-originals",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "millonarios",
     "forWomen": false,
-    "description": "",
+    "description": "Exclusiva pieza conmemorativa en blanco puro con cuello polo abotonado negro, el trébol de Adidas Originals y escudo clásico bordado.",
     "images": [
       "/seed/products/liga-colombiana-general-03.webp"
     ],
@@ -2701,12 +2701,12 @@
   },
   {
     "id": "liga-colombiana-general-04",
-    "name": "Liga Colombiana #4",
-    "slug": "liga-colombiana-general-04",
+    "name": "Camiseta Millonarios Retro 1988 Azul Adidas Trefoil",
+    "slug": "camiseta-millonarios-retro-1988-azul-adidas-trefoil",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "millonarios",
     "forWomen": false,
-    "description": "",
+    "description": "Réplica de la legendaria camiseta con la que Millonarios bordó su estrella 13 en 1988, con finas líneas blancas y cuello retro.",
     "images": [
       "/seed/products/liga-colombiana-general-04.webp"
     ],
@@ -2746,12 +2746,12 @@
   },
   {
     "id": "liga-colombiana-general-05",
-    "name": "Liga Colombiana #5",
-    "slug": "liga-colombiana-general-05",
+    "name": "Camiseta Millonarios Retro 1988 Blanca Visitante Adidas Trefoil",
+    "slug": "camiseta-millonarios-retro-1988-blanca-visitante-adidas-trefoil",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "millonarios",
     "forWomen": false,
-    "description": "",
+    "description": "La versión suplente de 1988 en blanco con delgadas líneas verticales azules, escudo tradicional y parche conmemorativo inferior.",
     "images": [
       "/seed/products/liga-colombiana-general-05.webp"
     ],
@@ -2791,12 +2791,12 @@
   },
   {
     "id": "liga-colombiana-general-06",
-    "name": "Liga Colombiana #6",
-    "slug": "liga-colombiana-general-06",
+    "name": "Camiseta Junior de Barranquilla Local 2024 Rayada Águila BetPlay",
+    "slug": "camiseta-junior-de-barranquilla-local-2024-rayada-aguila-betplay",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "junior",
     "forWomen": false,
-    "description": "",
+    "description": "El tradicional rojiblanco a rayas verticales del Tiburón de Barranquilla con mangas azul oscuro y escudo de las 10 estrellas.",
     "images": [
       "/seed/products/liga-colombiana-general-06.webp"
     ],
@@ -2836,12 +2836,12 @@
   },
   {
     "id": "liga-colombiana-general-07",
-    "name": "Liga Colombiana #7",
-    "slug": "liga-colombiana-general-07",
+    "name": "Camiseta Independiente Santa Fe Local 2024 Roja Fila",
+    "slug": "camiseta-independiente-santa-fe-local-2024-roja-fila",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "santa-fe",
     "forWomen": false,
-    "description": "",
+    "description": "La clásica indumentaria del primer campeón de Colombia: cuerpo rojo escarlata con mangas y cuello polo en blanco brillante.",
     "images": [
       "/seed/products/liga-colombiana-general-07.webp"
     ],
@@ -2881,12 +2881,12 @@
   },
   {
     "id": "liga-colombiana-general-08",
-    "name": "Liga Colombiana #8",
-    "slug": "liga-colombiana-general-08",
+    "name": "Camiseta Atlético Nacional Local 2024 Rayada Verde y Blanca Betsson",
+    "slug": "camiseta-atletico-nacional-local-2024-rayada-verde-y-blanca-betsson",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "atletico-nacional",
     "forWomen": false,
-    "description": "",
+    "description": "El verdolaga paisa a rayas verticales verdes y blancas con cuello en V blanco y patrocinador principal Betsson.",
     "images": [
       "/seed/products/liga-colombiana-general-08.webp"
     ],
@@ -2926,12 +2926,12 @@
   },
   {
     "id": "liga-colombiana-general-09",
-    "name": "Liga Colombiana #9",
-    "slug": "liga-colombiana-general-09",
+    "name": "Camiseta Millonarios Visitante 2024 Blanca y Dorada Adidas Andina",
+    "slug": "camiseta-millonarios-visitante-2024-blanca-y-dorada-adidas-andina",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "millonarios",
     "forWomen": false,
-    "description": "",
+    "description": "Equipación suplente de Millonarios en color blanco con las tres líneas de Adidas y detalles de patrocinadores en tono dorado.",
     "images": [
       "/seed/products/liga-colombiana-general-09.webp"
     ],
@@ -2971,12 +2971,12 @@
   },
   {
     "id": "liga-colombiana-general-10",
-    "name": "Liga Colombiana #10",
-    "slug": "liga-colombiana-general-10",
+    "name": "Camiseta Atlético Nacional Visitante 2024 Blanca Nike Betsson",
+    "slug": "camiseta-atletico-nacional-visitante-2024-blanca-nike-betsson",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "atletico-nacional",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta suplente blanca del Rey de Copas con mangas y cuello verde vibrante y patrocinador Betsson en el pecho.",
     "images": [
       "/seed/products/liga-colombiana-general-10.webp"
     ],
@@ -3016,12 +3016,12 @@
   },
   {
     "id": "liga-colombiana-general-11",
-    "name": "Liga Colombiana #11",
-    "slug": "liga-colombiana-general-11",
+    "name": "Camiseta Independiente Medellín (DIM) Local 2024 Azul y Negra Colanta",
+    "slug": "camiseta-independiente-medellin-dim-local-2024-azul-y-negra-colanta",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "independiente-medellin",
     "forWomen": false,
-    "description": "",
+    "description": "Diseño del Deportivo Independiente Medellín con degradado en azul profundo hacia negro, cuello en V y patrocinadores Colanta y Pilsen.",
     "images": [
       "/seed/products/liga-colombiana-general-11.webp"
     ],
@@ -3061,12 +3061,12 @@
   },
   {
     "id": "liga-colombiana-general-12",
-    "name": "Liga Colombiana #12",
-    "slug": "liga-colombiana-general-12",
+    "name": "Camiseta América de Cali Local 2024 Roja Reebok Colanta 1927",
+    "slug": "camiseta-america-de-cali-local-2024-roja-reebok-colanta-1927",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "america-de-cali",
     "forWomen": false,
-    "description": "",
+    "description": "El regreso triunfal de Reebok a la indumentaria escarlata: rojo pasión con cuello en V blanco y dorado y fecha de fundación 1927.",
     "images": [
       "/seed/products/liga-colombiana-general-12.webp"
     ],
@@ -3106,12 +3106,12 @@
   },
   {
     "id": "liga-colombiana-general-13",
-    "name": "Liga Colombiana #13",
-    "slug": "liga-colombiana-general-13",
+    "name": "Camiseta Millonarios Tercera Equipación 2024 Celeste y Lila Pastel Andina",
+    "slug": "camiseta-millonarios-tercera-equipacion-2024-celeste-y-lila-pastel-andina",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "millonarios",
     "forWomen": false,
-    "description": "",
+    "description": "Tercera equipación innovadora de Millonarios en tonos pasteles celestes y lilas suaves con escudo monocromático.",
     "images": [
       "/seed/products/liga-colombiana-general-13.webp"
     ],
@@ -3151,12 +3151,12 @@
   },
   {
     "id": "liga-colombiana-general-mujer-01",
-    "name": "Liga Colombiana Mujer #1",
-    "slug": "liga-colombiana-general-mujer-01",
+    "name": "Camiseta Millonarios Local Mujer 2024 Azul Adidas Andina",
+    "slug": "camiseta-millonarios-local-mujer-2024-azul-adidas-andina",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "millonarios",
     "forWomen": true,
-    "description": "",
+    "description": "Corte femenino entallado de la camiseta titular de Millonarios 2024 en azul rey con cuello redondo blanco.",
     "images": [
       "/seed/products/liga-colombiana-general-mujer-01.webp"
     ],
@@ -3196,12 +3196,12 @@
   },
   {
     "id": "liga-colombiana-general-mujer-02",
-    "name": "Liga Colombiana Mujer #2",
-    "slug": "liga-colombiana-general-mujer-02",
+    "name": "Camiseta Millonarios Visitante Mujer 2024 Rosa Pastel y Blanca Andina",
+    "slug": "camiseta-millonarios-visitante-mujer-2024-rosa-pastel-y-blanca-andina",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "millonarios",
     "forWomen": true,
-    "description": "",
+    "description": "Edición especial para dama en rosa pastel suave con vivos en azul oscuro y escudo de Millonarios en el pecho.",
     "images": [
       "/seed/products/liga-colombiana-general-mujer-02.webp"
     ],
@@ -3241,12 +3241,12 @@
   },
   {
     "id": "liga-colombiana-general-mujer-03",
-    "name": "Liga Colombiana Mujer #3",
-    "slug": "liga-colombiana-general-mujer-03",
+    "name": "Camiseta Millonarios Tercera Equipación Mujer 2024 Celeste y Lila",
+    "slug": "camiseta-millonarios-tercera-equipacion-mujer-2024-celeste-y-lila",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "millonarios",
     "forWomen": true,
-    "description": "",
+    "description": "Versión femenina con silueta estilizada en combinación de colores pastel celeste y lila con tecnología transpirable.",
     "images": [
       "/seed/products/liga-colombiana-general-mujer-03.webp"
     ],
@@ -3286,12 +3286,12 @@
   },
   {
     "id": "liga-colombiana-general-mujer-04",
-    "name": "Liga Colombiana Mujer #4",
-    "slug": "liga-colombiana-general-mujer-04",
+    "name": "Camiseta Millonarios Retro Mujer Blanca Adidas Originals",
+    "slug": "camiseta-millonarios-retro-mujer-blanca-adidas-originals",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "millonarios",
     "forWomen": true,
-    "description": "",
+    "description": "Edición de colección para mujer en color marfil con cuello polo clásico y el trébol de Adidas Originals.",
     "images": [
       "/seed/products/liga-colombiana-general-mujer-04.webp"
     ],
@@ -3331,12 +3331,12 @@
   },
   {
     "id": "liga-colombiana-general-mujer-05",
-    "name": "Liga Colombiana Mujer #5",
-    "slug": "liga-colombiana-general-mujer-05",
+    "name": "Camiseta Millonarios Visitante Mujer 2023 Blanca con Salpicado Azul",
+    "slug": "camiseta-millonarios-visitante-mujer-2023-blanca-con-salpicado-azul",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "millonarios",
     "forWomen": true,
-    "description": "",
+    "description": "Camiseta alternativa femenina con efecto de pintura / salpicado azul sobre lienzo blanco y cuello azul cielo.",
     "images": [
       "/seed/products/liga-colombiana-general-mujer-05.webp"
     ],
@@ -3376,12 +3376,12 @@
   },
   {
     "id": "liga-colombiana-general-mujer-06",
-    "name": "Liga Colombiana Mujer #6",
-    "slug": "liga-colombiana-general-mujer-06",
+    "name": "Camiseta Atlético Nacional Local Mujer 2024 Nike Betsson",
+    "slug": "camiseta-atletico-nacional-local-mujer-2024-nike-betsson",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "atletico-nacional",
     "forWomen": true,
-    "description": "",
+    "description": "Corte para dama de la clásica camiseta verdolaga a rayas verdes y blancas con patrocinador Betsson.",
     "images": [
       "/seed/products/liga-colombiana-general-mujer-06.webp"
     ],
@@ -3421,12 +3421,12 @@
   },
   {
     "id": "liga-colombiana-general-mujer-07",
-    "name": "Liga Colombiana Mujer #7",
-    "slug": "liga-colombiana-general-mujer-07",
+    "name": "Camiseta América de Cali Local Mujer 2024 Roja Reebok",
+    "slug": "camiseta-america-de-cali-local-mujer-2024-roja-reebok",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "america-de-cali",
     "forWomen": true,
-    "description": "",
+    "description": "Silueta femenina entallada en rojo escarlata de la Mechita con cuello en V blanco y dorado de la marca Reebok.",
     "images": [
       "/seed/products/liga-colombiana-general-mujer-07.webp"
     ],
@@ -3466,12 +3466,12 @@
   },
   {
     "id": "liga-colombiana-general-mujer-08",
-    "name": "Liga Colombiana Mujer #8",
-    "slug": "liga-colombiana-general-mujer-08",
+    "name": "Camiseta Independiente Santa Fe Local Mujer 2024 Roja Fila",
+    "slug": "camiseta-independiente-santa-fe-local-mujer-2024-roja-fila",
     "categorySlug": "liga-colombiana",
-    "teamSlug": null,
+    "teamSlug": "santa-fe",
     "forWomen": true,
-    "description": "",
+    "description": "Indumentaria femenina de Santa Fe en rojo con cuello y mangas blancas y el escudo cardenal bordado.",
     "images": [
       "/seed/products/liga-colombiana-general-mujer-08.webp"
     ],
@@ -3511,12 +3511,12 @@
   },
   {
     "id": "conjuntos-polo-general-01",
-    "name": "Conjunto Polo #1",
-    "slug": "conjuntos-polo-general-01",
+    "name": "Conjunto Polo + Pantalón Bayern Múnich Vinotinto Adidas",
+    "slug": "conjunto-polo-pantalon-bayern-munich-vinotinto-adidas",
     "categorySlug": "conjuntos-polo",
-    "teamSlug": null,
+    "teamSlug": "bayern-munich",
     "forWomen": false,
-    "description": "",
+    "description": "Camiseta tipo polo abotonada en color vino con pantalón de entrenamiento a juego y escudo del Bayern Múnich en rojo.",
     "images": [
       "/seed/products/conjuntos-polo-general-01.webp"
     ],
@@ -3556,12 +3556,12 @@
   },
   {
     "id": "conjuntos-polo-general-02",
-    "name": "Conjunto Polo #2",
-    "slug": "conjuntos-polo-general-02",
+    "name": "Conjunto Polo + Pantalón Manchester United Azul Marino Tezos Adidas",
+    "slug": "conjunto-polo-pantalon-manchester-united-azul-marino-tezos-adidas",
     "categorySlug": "conjuntos-polo",
-    "teamSlug": null,
+    "teamSlug": "manchester-united",
     "forWomen": false,
-    "description": "",
+    "description": "Polo deportivo azul marino con las 3 rayas rojas de Adidas en los hombros, patrocinador Tezos y pantalón pitillo de concentración.",
     "images": [
       "/seed/products/conjuntos-polo-general-02.webp"
     ],
@@ -3601,12 +3601,12 @@
   },
   {
     "id": "conjuntos-polo-general-03",
-    "name": "Conjunto Polo #3",
-    "slug": "conjuntos-polo-general-03",
+    "name": "Conjunto Polo + Pantalón Chelsea FC Azul Rey Nike",
+    "slug": "conjunto-polo-pantalon-chelsea-fc-azul-rey-nike",
     "categorySlug": "conjuntos-polo",
-    "teamSlug": null,
+    "teamSlug": "chelsea",
     "forWomen": false,
-    "description": "",
+    "description": "Polo azul eléctrico con cuello camisero negro y pantalón de jogging azul marino con escudo del Chelsea FC.",
     "images": [
       "/seed/products/conjuntos-polo-general-03.webp"
     ],
@@ -3646,12 +3646,12 @@
   },
   {
     "id": "conjuntos-polo-general-04",
-    "name": "Conjunto Polo #4",
-    "slug": "conjuntos-polo-general-04",
+    "name": "Conjunto Polo + Pantalón Inter Miami Rosa y Negro Adidas",
+    "slug": "conjunto-polo-pantalon-inter-miami-rosa-y-negro-adidas",
     "categorySlug": "conjuntos-polo",
-    "teamSlug": null,
+    "teamSlug": "inter-miami",
     "forWomen": false,
-    "description": "",
+    "description": "Polo en el emblemático rosa de Las Garzas con detalles negros y pantalón jogger negro con franjas rosadas.",
     "images": [
       "/seed/products/conjuntos-polo-general-04.webp"
     ],
@@ -3691,12 +3691,12 @@
   },
   {
     "id": "conjuntos-polo-general-05",
-    "name": "Conjunto Polo #5",
-    "slug": "conjuntos-polo-general-05",
+    "name": "Conjunto Polo + Pantalón River Plate Negro y Rojo Adidas",
+    "slug": "conjunto-polo-pantalon-river-plate-negro-y-rojo-adidas",
     "categorySlug": "conjuntos-polo",
-    "teamSlug": null,
+    "teamSlug": "river-plate",
     "forWomen": false,
-    "description": "",
+    "description": "Conjunto de viaje y concentración en negro con detalles rojos vivos y el escudo de River Plate en el pecho y pierna.",
     "images": [
       "/seed/products/conjuntos-polo-general-05.webp"
     ],
@@ -3736,12 +3736,12 @@
   },
   {
     "id": "conjuntos-polo-general-06",
-    "name": "Conjunto Polo #6",
-    "slug": "conjuntos-polo-general-06",
+    "name": "Conjunto Polo + Pantalón Manchester City Celeste y Azul Marino Puma",
+    "slug": "conjunto-polo-pantalon-manchester-city-celeste-y-azul-marino-puma",
     "categorySlug": "conjuntos-polo",
-    "teamSlug": null,
+    "teamSlug": "manchester-city",
     "forWomen": false,
-    "description": "",
+    "description": "Polo celeste clásico de los Cityzens combinado con pantalón entallado azul marino de la marca Puma.",
     "images": [
       "/seed/products/conjuntos-polo-general-06.webp"
     ],
@@ -3781,12 +3781,12 @@
   },
   {
     "id": "conjuntos-polo-general-07",
-    "name": "Conjunto Polo #7",
-    "slug": "conjuntos-polo-general-07",
+    "name": "Conjunto Polo + Pantalón FC Barcelona Negro y Dorado Spotify Nike",
+    "slug": "conjunto-polo-pantalon-fc-barcelona-negro-y-dorado-spotify-nike",
     "categorySlug": "conjuntos-polo",
-    "teamSlug": null,
+    "teamSlug": "barcelona",
     "forWomen": false,
-    "description": "",
+    "description": "Elegante conjunto en color negro con cuello polo beige/dorado, escudo monocromático del Barça y pantalón de entrenamiento.",
     "images": [
       "/seed/products/conjuntos-polo-general-07.webp"
     ],
@@ -3826,12 +3826,12 @@
   },
   {
     "id": "conjuntos-polo-general-08",
-    "name": "Conjunto Polo #8",
-    "slug": "conjuntos-polo-general-08",
+    "name": "Conjunto Polo + Pantalón Al-Nassr FC Azul Marino Adidas",
+    "slug": "conjunto-polo-pantalon-al-nassr-fc-azul-marino-adidas",
     "categorySlug": "conjuntos-polo",
-    "teamSlug": null,
+    "teamSlug": "al-nassr",
     "forWomen": false,
-    "description": "",
+    "description": "Indumentaria de presentación del club árabe Al-Nassr en azul marino con detalles dorados y escudo oficial.",
     "images": [
       "/seed/products/conjuntos-polo-general-08.webp"
     ],
@@ -3871,12 +3871,12 @@
   },
   {
     "id": "sudaderas-ninos-general-01",
-    "name": "Sudadera Niño #1",
-    "slug": "sudaderas-ninos-general-01",
+    "name": "Sudadera Infantil Tottenham Hotspur Azul Marino Nike Getir",
+    "slug": "sudadera-infantil-tottenham-hotspur-azul-marino-nike-getir",
     "categorySlug": "sudaderas-ninos",
-    "teamSlug": null,
+    "teamSlug": "tottenham-hotspur",
     "forWomen": false,
-    "description": "",
+    "description": "Chaqueta de entrenamiento con media cremallera y pantalón térmico para niño en azul marino con detalles celestes.",
     "images": [
       "/seed/products/sudaderas-ninos-general-01.webp"
     ],
@@ -3924,12 +3924,12 @@
   },
   {
     "id": "sudaderas-ninos-general-02",
-    "name": "Sudadera Niño #2",
-    "slug": "sudaderas-ninos-general-02",
+    "name": "Sudadera Infantil Real Madrid Rosa y Carbón Adidas Fly Emirates",
+    "slug": "sudadera-infantil-real-madrid-rosa-y-carbon-adidas-fly-emirates",
     "categorySlug": "sudaderas-ninos",
-    "teamSlug": null,
+    "teamSlug": "real-madrid",
     "forWomen": false,
-    "description": "",
+    "description": "Chaqueta deportiva infantil en rosa pastel con mangas y pantalón en gris carbón y escudo del Real Madrid.",
     "images": [
       "/seed/products/sudaderas-ninos-general-02.webp"
     ],
@@ -3977,12 +3977,12 @@
   },
   {
     "id": "sudaderas-ninos-general-03",
-    "name": "Sudadera Niño #3",
-    "slug": "sudaderas-ninos-general-03",
+    "name": "Sudadera Infantil Arsenal FC Roja y Blanca Adidas Fly Emirates",
+    "slug": "sudadera-infantil-arsenal-fc-roja-y-blanca-adidas-fly-emirates",
     "categorySlug": "sudaderas-ninos",
-    "teamSlug": null,
+    "teamSlug": "arsenal",
     "forWomen": false,
-    "description": "",
+    "description": "Chaqueta roja con mangas blancas de los Gunners y pantalón azul marino con las tres líneas de Adidas.",
     "images": [
       "/seed/products/sudaderas-ninos-general-03.webp"
     ],
@@ -4030,12 +4030,12 @@
   },
   {
     "id": "sudaderas-ninos-general-04",
-    "name": "Sudadera Niño #4",
-    "slug": "sudaderas-ninos-general-04",
+    "name": "Sudadera Infantil Tottenham Hotspur Gris y Celeste Nike Getir",
+    "slug": "sudadera-infantil-tottenham-hotspur-gris-y-celeste-nike-getir",
     "categorySlug": "sudaderas-ninos",
-    "teamSlug": null,
+    "teamSlug": "tottenham-hotspur",
     "forWomen": false,
-    "description": "",
+    "description": "Conjunto completo de chaqueta gris con franjas celestes en los hombros y pantalón a juego con el gallo de los Spurs.",
     "images": [
       "/seed/products/sudaderas-ninos-general-04.webp"
     ],
@@ -4083,12 +4083,12 @@
   },
   {
     "id": "sudaderas-ninos-general-05",
-    "name": "Sudadera Niño #5",
-    "slug": "sudaderas-ninos-general-05",
+    "name": "Sudadera Infantil FC Barcelona Negra y Blaugrana Nike Spotify",
+    "slug": "sudadera-infantil-fc-barcelona-negra-y-blaugrana-nike-spotify",
     "categorySlug": "sudaderas-ninos",
-    "teamSlug": null,
+    "teamSlug": "barcelona",
     "forWomen": false,
-    "description": "",
+    "description": "Chaqueta con media cremallera en negro con detalles azul y grana en los hombros y pantalón jogger con escudo del Barça.",
     "images": [
       "/seed/products/sudaderas-ninos-general-05.webp"
     ],
@@ -4136,12 +4136,12 @@
   },
   {
     "id": "sudaderas-ninos-general-06",
-    "name": "Sudadera Niño #6",
-    "slug": "sudaderas-ninos-general-06",
+    "name": "Sudadera Infantil AC Milan Negra y Dorada Puma eFootball",
+    "slug": "sudadera-infantil-ac-milan-negra-y-dorada-puma-efootball",
     "categorySlug": "sudaderas-ninos",
-    "teamSlug": null,
+    "teamSlug": "ac-milan",
     "forWomen": false,
-    "description": "",
+    "description": "Conjunto de calentamiento infantil en negro con inserciones rojas en los codos y escudo dorado del Milan.",
     "images": [
       "/seed/products/sudaderas-ninos-general-06.webp"
     ],
@@ -4189,12 +4189,12 @@
   },
   {
     "id": "sudaderas-ninos-general-07",
-    "name": "Sudadera Niño #7",
-    "slug": "sudaderas-ninos-general-07",
+    "name": "Sudadera Infantil Real Madrid Blanca y Azul Marino Adidas Fly Emirates",
+    "slug": "sudadera-infantil-real-madrid-blanca-y-azul-marino-adidas-fly-emirates",
     "categorySlug": "sudaderas-ninos",
-    "teamSlug": null,
+    "teamSlug": "real-madrid",
     "forWomen": false,
-    "description": "",
+    "description": "Conjunto de concentración con chaqueta blanca con mangas azul marino y pantalón con franjas doradas del Real Madrid.",
     "images": [
       "/seed/products/sudaderas-ninos-general-07.webp"
     ],
@@ -4242,12 +4242,12 @@
   },
   {
     "id": "sudaderas-ninos-general-08",
-    "name": "Sudadera Niño #8",
-    "slug": "sudaderas-ninos-general-08",
+    "name": "Sudadera Infantil Bayern Múnich Vinotinto y Fucsia Adidas",
+    "slug": "sudadera-infantil-bayern-munich-vinotinto-y-fucsia-adidas",
     "categorySlug": "sudaderas-ninos",
-    "teamSlug": null,
+    "teamSlug": "bayern-munich",
     "forWomen": false,
-    "description": "",
+    "description": "Sudadera térmica infantil del Bayern Múnich en color vinotinto con acentos fucsia y pantalón pitillo de entrenamiento.",
     "images": [
       "/seed/products/sudaderas-ninos-general-08.webp"
     ],
@@ -4295,12 +4295,12 @@
   },
   {
     "id": "uniformes-futbol-general-01",
-    "name": "Uniforme de Fútbol #1",
-    "slug": "uniformes-futbol-general-01",
+    "name": "Uniforme Completo España Visitante Retro Originals Crema",
+    "slug": "uniforme-completo-espana-visitante-retro-originals-crema",
     "categorySlug": "uniformes-futbol",
-    "teamSlug": null,
+    "teamSlug": "espana",
     "forWomen": false,
-    "description": "",
+    "description": "Conjunto de juego con camiseta color marfil/crema con vivos granate y pantaloneta vinotinto a juego de la Selección Española.",
     "images": [
       "/seed/products/uniformes-futbol-general-01.webp"
     ],
@@ -4340,12 +4340,12 @@
   },
   {
     "id": "uniformes-futbol-general-02",
-    "name": "Uniforme de Fútbol #2",
-    "slug": "uniformes-futbol-general-02",
+    "name": "Uniforme Completo Argentina Edición Especial Barroco Floral Negra y Azul",
+    "slug": "uniforme-completo-argentina-edicion-especial-barroco-floral-negra-y-azul",
     "categorySlug": "uniformes-futbol",
-    "teamSlug": null,
+    "teamSlug": "argentina",
     "forWomen": false,
-    "description": "",
+    "description": "Kit completo de camiseta negra con arabescos barrocos en azul eléctrico y pantaloneta negra con el escudo AFA 3 estrellas.",
     "images": [
       "/seed/products/uniformes-futbol-general-02.webp"
     ],
@@ -4385,12 +4385,12 @@
   },
   {
     "id": "uniformes-futbol-general-03",
-    "name": "Uniforme de Fútbol #3",
-    "slug": "uniformes-futbol-general-03",
+    "name": "Uniforme Completo FC Barcelona Mamba Negra y Morada",
+    "slug": "uniforme-completo-fc-barcelona-mamba-negra-y-morada",
     "categorySlug": "uniformes-futbol",
-    "teamSlug": null,
+    "teamSlug": "barcelona",
     "forWomen": false,
-    "description": "",
+    "description": "Kit de camiseta edición Kobe Bryant Mamba Mentality morada y negra con pantaloneta negra con escudo del Barcelona.",
     "images": [
       "/seed/products/uniformes-futbol-general-03.webp"
     ],
@@ -4430,12 +4430,12 @@
   },
   {
     "id": "uniformes-futbol-general-04",
-    "name": "Uniforme de Fútbol #4",
-    "slug": "uniformes-futbol-general-04",
+    "name": "Uniforme Completo Italia Retro Originals Gris y Azul Marino",
+    "slug": "uniforme-completo-italia-retro-originals-gris-y-azul-marino",
     "categorySlug": "uniformes-futbol",
-    "teamSlug": null,
+    "teamSlug": "italia",
     "forWomen": false,
-    "description": "",
+    "description": "Conjunto vintage de la Squadra Azzurra con camiseta gris claro con trébol de Adidas y pantaloneta azul marino con las cuatro estrellas.",
     "images": [
       "/seed/products/uniformes-futbol-general-04.webp"
     ],
@@ -4475,12 +4475,12 @@
   },
   {
     "id": "uniformes-ninos-general-01",
-    "name": "Uniforme Niño #1",
-    "slug": "uniformes-ninos-general-01",
+    "name": "Uniforme Niño Independiente Santa Fe Local 2024 Rojo y Blanco",
+    "slug": "uniforme-nino-independiente-santa-fe-local-2024-rojo-y-blanco",
     "categorySlug": "uniformes-ninos",
-    "teamSlug": null,
+    "teamSlug": "santa-fe",
     "forWomen": false,
-    "description": "",
+    "description": "Uniforme completo infantil de Santa Fe con camiseta roja con mangas blancas y pantaloneta blanca con patrocinadores oficiales.",
     "images": [
       "/seed/products/uniformes-ninos-general-01.webp"
     ],
@@ -4528,12 +4528,12 @@
   },
   {
     "id": "uniformes-ninos-general-02",
-    "name": "Uniforme Niño #2",
-    "slug": "uniformes-ninos-general-02",
+    "name": "Uniforme Niño Millonarios Local 2024 Azul",
+    "slug": "uniforme-nino-millonarios-local-2024-azul",
     "categorySlug": "uniformes-ninos",
-    "teamSlug": null,
+    "teamSlug": "millonarios",
     "forWomen": false,
-    "description": "",
+    "description": "Equipación infantil completa de Millonarios FC con camiseta azul rey Andina y pantaloneta azul con escudo del club.",
     "images": [
       "/seed/products/uniformes-ninos-general-02.webp"
     ],
@@ -4581,12 +4581,12 @@
   },
   {
     "id": "uniformes-ninos-general-03",
-    "name": "Uniforme Niño #3",
-    "slug": "uniformes-ninos-general-03",
+    "name": "Uniforme Niño Inter Miami Visitante 2024 Negro y Rosa",
+    "slug": "uniforme-nino-inter-miami-visitante-2024-negro-y-rosa",
     "categorySlug": "uniformes-ninos",
-    "teamSlug": null,
+    "teamSlug": "inter-miami",
     "forWomen": false,
-    "description": "",
+    "description": "Uniforme infantil de Las Garzas en negro azabache con detalles rosados, patrocinador Royal Caribbean y pantaloneta negra.",
     "images": [
       "/seed/products/uniformes-ninos-general-03.webp"
     ],
@@ -4634,12 +4634,12 @@
   },
   {
     "id": "uniformes-ninos-general-04",
-    "name": "Uniforme Niño #4",
-    "slug": "uniformes-ninos-general-04",
+    "name": "Uniforme Niño Real Madrid Visitante 2023/24 Azul Marino",
+    "slug": "uniforme-nino-real-madrid-visitante-2023-24-azul-marino",
     "categorySlug": "uniformes-ninos",
-    "teamSlug": null,
+    "teamSlug": "real-madrid",
     "forWomen": false,
-    "description": "",
+    "description": "Kit completo para niño en azul marino con detalles dorados y blancos de Fly Emirates y pantaloneta a juego.",
     "images": [
       "/seed/products/uniformes-ninos-general-04.webp"
     ],
@@ -4687,12 +4687,12 @@
   },
   {
     "id": "uniformes-ninos-general-05",
-    "name": "Uniforme Niño #5",
-    "slug": "uniformes-ninos-general-05",
+    "name": "Uniforme Niño Real Madrid Local 2024/25 Blanco",
+    "slug": "uniforme-nino-real-madrid-local-2024-25-blanco",
     "categorySlug": "uniformes-ninos",
-    "teamSlug": null,
+    "teamSlug": "real-madrid",
     "forWomen": false,
-    "description": "",
+    "description": "El uniforme infantil de gala del Real Madrid en blanco con franjas negras y detalles dorados con pantaloneta blanca oficial.",
     "images": [
       "/seed/products/uniformes-ninos-general-05.webp"
     ],
@@ -4740,12 +4740,12 @@
   },
   {
     "id": "uniformes-ninos-general-06",
-    "name": "Uniforme Niño #6",
-    "slug": "uniformes-ninos-general-06",
+    "name": "Uniforme Niño Manchester City Local 2024/25 Celeste",
+    "slug": "uniforme-nino-manchester-city-local-2024-25-celeste",
     "categorySlug": "uniformes-ninos",
-    "teamSlug": null,
+    "teamSlug": "manchester-city",
     "forWomen": false,
-    "description": "",
+    "description": "Uniforme titular infantil del Manchester City en azul celeste con cuello estilizado y pantaloneta blanca de juego Puma.",
     "images": [
       "/seed/products/uniformes-ninos-general-06.webp"
     ],
@@ -4793,12 +4793,12 @@
   },
   {
     "id": "uniformes-ninos-general-07",
-    "name": "Uniforme Niño #7",
-    "slug": "uniformes-ninos-general-07",
+    "name": "Uniforme Niño FC Barcelona Local 2023/24 Blaugrana",
+    "slug": "uniforme-nino-fc-barcelona-local-2023-24-blaugrana",
     "categorySlug": "uniformes-ninos",
-    "teamSlug": null,
+    "teamSlug": "barcelona",
     "forWomen": false,
-    "description": "",
+    "description": "Uniforme completo de niño del Barça a franjas azul y grana con pantaloneta azul marino y patrocinador Spotify.",
     "images": [
       "/seed/products/uniformes-ninos-general-07.webp"
     ],
@@ -4846,12 +4846,12 @@
   },
   {
     "id": "uniformes-ninos-general-08",
-    "name": "Uniforme Niño #8",
-    "slug": "uniformes-ninos-general-08",
+    "name": "Uniforme Niño Paris Saint-Germain Local 2023/24 Azul Marino",
+    "slug": "uniforme-nino-paris-saint-germain-local-2023-24-azul-marino",
     "categorySlug": "uniformes-ninos",
-    "teamSlug": null,
+    "teamSlug": "psg",
     "forWomen": false,
-    "description": "",
+    "description": "Uniforme completo para niños del PSG en azul noche con franja degradada roja y pantaloneta azul marino con escudo del club.",
     "images": [
       "/seed/products/uniformes-ninos-general-08.webp"
     ],

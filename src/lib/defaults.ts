@@ -15,9 +15,11 @@ export const DEFAULT_CATEGORIES: Category[] = [
 
 const teamNames = [
   "Real Madrid", "Barcelona", "AC Milan", "Liverpool", "Manchester United", "Manchester City",
-  "Arsenal", "Chelsea", "Bayern Múnich", "PSG", "Juventus", "Inter de Milán", "Boca Juniors",
-  "River Plate", "Selección Colombia", "Argentina", "Brasil", "Millonarios", "Santa Fe",
-  "Atlético Nacional", "América de Cali", "Junior", "Deportivo Cali",
+  "Arsenal", "Chelsea", "Bayern Múnich", "PSG", "Juventus", "Inter de Milán", "Inter Miami",
+  "Al-Nassr", "Tottenham Hotspur", "Boca Juniors", "River Plate", "Selección Colombia",
+  "Argentina", "Brasil", "España", "Alemania", "Francia", "Italia",
+  "Millonarios", "Santa Fe", "Atlético Nacional", "América de Cali", "Junior",
+  "Independiente Medellín", "Deportivo Cali",
 ];
 
 export const slugify = (s: string) =>
