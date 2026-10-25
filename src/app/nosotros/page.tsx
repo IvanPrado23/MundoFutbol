@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ShieldCheck, Heart, Sparkles, MessageCircle, ArrowRight } from "lucide-react";
 import { useCatalog } from "@/components/CatalogProvider";
+import { whatsappUrl } from "@/lib/utils";
 
 export default function AboutUsPage() {
   const { settings } = useCatalog();
@@ -73,7 +74,7 @@ export default function AboutUsPage() {
             Ver Catálogo de Camisetas
           </Link>
           <Link
-            href={`https://wa.me/${settings.whatsapp.replace(/\D/g, "")}`}
+            href={whatsappUrl(settings.whatsapp || "573213831679", "⚽ ¡Hola J&A Mundo Fútbol! 👋 Vi su historia en la web y quiero hablar con ustedes.")}
             target="_blank"
             className="px-6 py-3 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-xs flex items-center gap-2"
           >

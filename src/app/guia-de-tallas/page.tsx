@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Ruler, ShieldCheck, MessageCircle, ArrowRight } from "lucide-react";
 import { useCatalog } from "@/components/CatalogProvider";
+import { whatsappUrl } from "@/lib/utils";
 
 export default function SizeGuidePage() {
   const { settings } = useCatalog();
@@ -32,7 +33,7 @@ export default function SizeGuidePage() {
           </p>
         </div>
         <Link
-          href={`https://wa.me/${settings.whatsapp.replace(/\D/g, "")}?text=Hola,%20tengo%20duda%20con%20la%20talla%20de%20una%20camiseta`}
+          href={whatsappUrl(settings.whatsapp || "573213831679", "⚽ ¡Hola! 👋 Tengo una consulta con la guía de tallas de una camiseta.")}
           target="_blank"
           className="px-6 py-3 rounded-2xl bg-cyan-400 hover:bg-cyan-300 text-slate-950 font-bold text-xs flex items-center gap-2 flex-shrink-0 transition-all"
         >

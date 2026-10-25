@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Truck, CreditCard, ShieldCheck, RefreshCw, MessageCircle, Clock, MapPin } from "lucide-react";
 import { useCatalog } from "@/components/CatalogProvider";
+import { whatsappUrl } from "@/lib/utils";
 
 export default function ShippingAndPaymentsPage() {
   const { settings } = useCatalog();
@@ -116,7 +117,7 @@ export default function ShippingAndPaymentsPage() {
 
         <div className="pt-2">
           <Link
-            href={`https://wa.me/${settings.whatsapp.replace(/\D/g, "")}?text=Hola,%20tengo%20una%20consulta%20sobre%20un%20envio`}
+            href={whatsappUrl(settings.whatsapp || "573213831679", "⚽ ¡Hola! 👋 Tengo una consulta sobre los envíos a mi ciudad.")}
             target="_blank"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-xs"
           >

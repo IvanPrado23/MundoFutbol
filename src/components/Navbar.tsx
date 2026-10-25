@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 import { useCart, useFavorites } from "@/lib/store";
 import { useCatalog } from "@/components/CatalogProvider";
-import { formatPrice } from "@/lib/utils";
+import { formatPrice, whatsappUrl } from "@/lib/utils";
 
 export function Navbar() {
   const pathname = usePathname();
@@ -74,7 +74,7 @@ export function Navbar() {
 
           <div className="flex items-center gap-4 text-[11px] sm:text-xs">
             <Link 
-              href={`https://wa.me/${settings.whatsapp.replace(/\D/g, "")}`}
+              href={whatsappUrl(settings.whatsapp || "573213831679", "¡Hola J&A Mundo Fútbol! 👋 Tengo una consulta sobre las camisetas.")}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-cyan-400 transition-colors flex items-center gap-1 text-slate-300"

@@ -3,16 +3,15 @@
 import Link from "next/link";
 import { MessageCircle } from "lucide-react";
 import { useCatalog } from "@/components/CatalogProvider";
+import { whatsappUrl } from "@/lib/utils";
 import { useState } from "react";
 
 export function WhatsAppFloat() {
   const { settings } = useCatalog();
   const [hovered, setHovered] = useState(false);
 
-  const phone = settings.whatsapp.replace(/\D/g, "");
-  const defaultMessage = encodeURIComponent(
-    "¡Hola J&A Mundo Fútbol! 👋 Vi su página web y quiero hacer una consulta sobre las camisetas."
-  );
+  const defaultMessage = "⚽ ¡Hola J&A Mundo Fútbol! 👋 Vi su tienda virtual y quiero consultar por una camiseta.";
+  const link = whatsappUrl(settings.whatsapp || "573213831679", defaultMessage);
 
   return (
     <div className="fixed bottom-6 right-6 z-40 flex items-center gap-3">
@@ -25,7 +24,7 @@ export function WhatsAppFloat() {
       )}
 
       <Link
-        href={`https://wa.me/${phone}?text=${defaultMessage}`}
+        href={link}
         target="_blank"
         rel="noopener noreferrer"
         onMouseEnter={() => setHovered(true)}

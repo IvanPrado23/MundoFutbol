@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { MessageCircle, ShieldCheck, Truck, RefreshCw, Lock } from "lucide-react";
 import { useCatalog } from "@/components/CatalogProvider";
+import { whatsappUrl } from "@/lib/utils";
 
 function InstagramIcon({ className }: { className?: string }) {
   return (
@@ -134,7 +135,7 @@ export function Footer() {
                 )}
 
                 <Link
-                  href={`https://wa.me/${settings.whatsapp.replace(/\D/g, "")}`}
+                  href={whatsappUrl(settings.whatsapp || "573213831679", "¡Hola J&A Mundo Fútbol! 👋 Vi sus redes y tengo una consulta.")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white flex items-center justify-center transition-all hover:scale-105 shadow"
@@ -213,7 +214,7 @@ export function Footer() {
               </p>
               
               <Link
-                href={`https://wa.me/${settings.whatsapp.replace(/\D/g, "")}`}
+                href={whatsappUrl(settings.whatsapp || "573213831679", "¡Hola J&A Mundo Fútbol! 👋 Quiero hacer una consulta sobre las camisetas.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-cyan-300 font-semibold text-xs border border-cyan-500/30 transition-colors"

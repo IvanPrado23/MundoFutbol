@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { ChevronDown, HelpCircle, MessageCircle } from "lucide-react";
 import { useCatalog } from "@/components/CatalogProvider";
+import { whatsappUrl } from "@/lib/utils";
 
 export default function FAQPage() {
   const { settings } = useCatalog();
@@ -68,7 +69,7 @@ export default function FAQPage() {
         </p>
         <div className="pt-2">
           <Link
-            href={`https://wa.me/${settings.whatsapp.replace(/\D/g, "")}?text=Hola,%20tengo%20una%20pregunta%20que%20no%20esta%20en%20las%20FAQ`}
+            href={whatsappUrl(settings.whatsapp || "573213831679", "⚽ ¡Hola J&A Mundo Fútbol! 👋 Tengo una pregunta que no vi en las preguntas frecuentes.")}
             target="_blank"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-xs"
           >

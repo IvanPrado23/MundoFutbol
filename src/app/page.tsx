@@ -16,6 +16,7 @@ import {
 import { useCatalog, useVisibleProducts } from "@/components/CatalogProvider";
 import { HomeHero } from "@/components/HomeHero";
 import { ProductCard } from "@/components/ProductCard";
+import { whatsappUrl } from "@/lib/utils";
 
 export default function HomePage() {
   const { categories, teams, settings, loading } = useCatalog();
@@ -197,9 +198,10 @@ export default function HomePage() {
                   Ver Camisetas Personalizables
                 </Link>
                 <Link
-                  href={`https://wa.me/${settings.whatsapp.replace(/\D/g, "")}?text=${encodeURIComponent(
-                    "¡Hola! Quiero consultar por el estampado personalizado de una camiseta."
-                  )}`}
+                  href={whatsappUrl(
+                    settings.whatsapp || "573213831679",
+                    "⚽ ¡Hola J&A Mundo Fútbol! 👋 Quiero consultar por el estampado personalizado de una camiseta."
+                  )}
                   target="_blank"
                   className="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs sm:text-sm border border-slate-600 transition-all"
                 >
@@ -332,9 +334,10 @@ export default function HomePage() {
 
             <div className="pt-2">
               <Link
-                href={`https://wa.me/${settings.whatsapp.replace(/\D/g, "")}?text=${encodeURIComponent(
-                  "¡Hola J&A Mundo Fútbol! 👋 Estoy buscando una camiseta que no vi en la página, ¿me pueden asesorar?"
-                )}`}
+                href={whatsappUrl(
+                  settings.whatsapp || "573213831679",
+                  "⚽ ¡Hola J&A Mundo Fútbol! 👋 Estoy buscando una camiseta que no vi en la página, ¿me pueden asesorar?"
+                )}
                 target="_blank"
                 className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-[#25D366] hover:bg-[#20ba59] text-white font-extrabold text-sm sm:text-base shadow-xl shadow-green-600/30 transition-all hover:scale-105 active:scale-95"
               >

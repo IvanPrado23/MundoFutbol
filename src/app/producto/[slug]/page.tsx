@@ -97,14 +97,17 @@ function ProductDetailInner({ params }: ProductPageProps) {
   const handleBuyNowDirect = () => {
     if (!currentSize) return;
     const msg = [
-      `¡Hola J&A Mundo Fútbol! 👋 Quiero comprar esta camiseta directamente:`,
-      `• *${product.name}*`,
-      `• Talla: ${currentSize}`,
-      customEnabled ? `• Estampado: ${customName.toUpperCase()} #${customNumber} (+${formatPrice(extraPrice)})` : null,
-      `• Cantidad: ${quantity}`,
-      `• Total estimado: ${formatPrice(totalPrice)}`,
+      `⚽ *¡HOLA J&A MUNDO FÚTBOL!* 👋`,
+      `Quiero pedir esta camiseta directamente:`,
+      `━━━━━━━━━━━━━━━━━━━━━━`,
+      `👕 *${product.name}*`,
+      `▫️ Talla: *${currentSize}*`,
+      customEnabled ? `✨ *Estampado:* ${customName.toUpperCase()} #${customNumber} (+${formatPrice(extraPrice)})` : null,
+      `▫️ Cantidad: *${quantity}*`,
+      `━━━━━━━━━━━━━━━━━━━━━━`,
+      `💰 *Total estimado: ${formatPrice(totalPrice)}*`,
       ``,
-      `¿Tienen disponibilidad para envío inmediato?`,
+      `¿Tienen disponibilidad para envío inmediato? ¡Muchas gracias! 🙌🔥`,
     ]
       .filter(Boolean)
       .join("\n");
