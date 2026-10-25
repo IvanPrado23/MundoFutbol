@@ -52,9 +52,9 @@ export default function HomePage() {
 
       {/* 2. Categorías Destacadas */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
+        <div className="flex flex-col sm:flex-row items-center sm:items-end justify-between gap-3 mb-6 sm:mb-8 text-center sm:text-left">
           <div>
-            <div className="flex items-center gap-2 text-cyan-600 font-extrabold text-xs uppercase tracking-wider mb-1">
+            <div className="flex items-center justify-center sm:justify-start gap-2 text-cyan-600 font-extrabold text-xs uppercase tracking-wider mb-1">
               <Layers className="w-4 h-4" /> Explora por colección
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
@@ -63,7 +63,7 @@ export default function HomePage() {
           </div>
           <Link
             href="/catalogo"
-            className="text-xs font-bold text-cyan-600 hover:text-cyan-700 flex items-center gap-1 group self-start sm:self-auto"
+            className="text-xs font-bold text-cyan-600 hover:text-cyan-700 flex items-center gap-1 group"
           >
             Ver catálogo completo{" "}
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -115,9 +115,9 @@ export default function HomePage() {
 
       {/* 3. Colección Destacada con Tabs */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+        <div className="flex flex-col md:flex-row items-center md:items-end justify-between gap-4 mb-8 text-center md:text-left">
           <div>
-            <div className="flex items-center gap-1.5 text-amber-500 font-extrabold text-xs uppercase tracking-wider mb-1">
+            <div className="flex items-center justify-center md:justify-start gap-1.5 text-amber-500 font-extrabold text-xs uppercase tracking-wider mb-1">
               <Flame className="w-4 h-4 fill-amber-500" /> Selección Especial
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
@@ -125,8 +125,8 @@ export default function HomePage() {
             </h2>
           </div>
 
-          {/* Filter Tabs */}
-          <div className="flex items-center gap-1.5 overflow-x-auto pb-2 md:pb-0 scrollbar-none">
+          {/* Filter Tabs - Centered on mobile */}
+          <div className="flex items-center justify-center flex-wrap gap-1.5 w-full md:w-auto">
             {[
               { id: "todos", label: "Destacadas" },
               { id: "retro", label: "Retros" },
@@ -136,7 +136,7 @@ export default function HomePage() {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`px-4 py-2 rounded-xl text-xs font-bold transition-all whitespace-nowrap ${
+                className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all whitespace-nowrap ${
                   activeTab === tab.id
                     ? "bg-[#0B1528] text-white shadow-md shadow-slate-900/10 scale-105"
                     : "bg-white text-slate-600 hover:text-slate-900 border border-slate-200"
@@ -175,8 +175,8 @@ export default function HomePage() {
         <div className="relative rounded-3xl bg-gradient-to-r from-[#060D1A] via-[#0F1E36] to-[#162A4D] text-white overflow-hidden p-8 sm:p-12 border border-cyan-500/30 shadow-2xl">
           <div className="absolute top-0 right-0 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
-            <div className="lg:col-span-8 space-y-4">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10 text-center lg:text-left">
+            <div className="lg:col-span-8 space-y-4 flex flex-col items-center lg:items-start">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-cyan-500/20 text-cyan-300 font-extrabold text-xs uppercase tracking-wider">
                 <Sparkles className="w-3.5 h-3.5 text-cyan-400" /> Personalización Oficial
               </span>
@@ -185,15 +185,15 @@ export default function HomePage() {
                 ¿Quieres tu nombre y tu número en la espalda?
               </h2>
 
-              <p className="text-sm sm:text-base text-slate-300 leading-relaxed max-w-xl">
+              <p className="text-sm sm:text-base text-slate-300 leading-relaxed max-w-xl mx-auto lg:mx-0">
                 En J&A Mundo Fútbol estampamos tu camiseta con la tipografía oficial del club o selección. 
                 Elige tu camiseta favorita, activa el estampado al hacer tu pedido y nos encargamos de dejarla impecable.
               </p>
 
-              <div className="pt-2 flex flex-wrap items-center gap-4">
+              <div className="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 w-full sm:w-auto">
                 <Link
                   href="/categoria/retro"
-                  className="px-6 py-3 rounded-xl bg-cyan-400 hover:bg-cyan-300 text-slate-950 font-black text-xs sm:text-sm shadow-md transition-all hover:scale-105"
+                  className="w-full sm:w-auto px-6 py-3 rounded-xl bg-cyan-400 hover:bg-cyan-300 text-slate-950 font-black text-xs sm:text-sm shadow-md transition-all hover:scale-105"
                 >
                   Ver Camisetas Personalizables
                 </Link>
@@ -203,7 +203,7 @@ export default function HomePage() {
                     "⚽ ¡Hola J&A Mundo Fútbol! 👋 Quiero consultar por el estampado personalizado de una camiseta."
                   )}
                   target="_blank"
-                  className="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs sm:text-sm border border-slate-600 transition-all"
+                  className="w-full sm:w-auto px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs sm:text-sm border border-slate-600 transition-all"
                 >
                   Consultar por WhatsApp
                 </Link>
@@ -227,7 +227,7 @@ export default function HomePage() {
       {/* 5. Colección Para Mujer Highlight */}
       {womenProducts.length > 0 && (
         <section className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="flex items-center justify-between mb-8">
+          <div className="flex flex-col sm:flex-row items-center sm:items-end justify-between gap-3 mb-6 sm:mb-8 text-center sm:text-left">
             <div>
               <span className="text-pink-500 font-extrabold text-xs uppercase tracking-wider block mb-1">
                 Ajuste Especial

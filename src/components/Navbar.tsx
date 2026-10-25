@@ -56,37 +56,39 @@ export function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-40 w-full transition-all duration-300">
-      {/* Top Banner Bar */}
-      <div className="bg-[#060D1A] text-white text-xs py-2 px-4 border-b border-cyan-500/20">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-6 overflow-hidden text-[11px] sm:text-xs">
-            <span className="flex items-center gap-1.5 text-cyan-400 font-medium">
-              <Truck className="w-3.5 h-3.5" /> Envíos a todo Colombia
+    <header className="sticky top-0 z-40 w-full overflow-hidden">
+      {/* Top Banner Bar - Clean & Responsive */}
+      <div className="bg-[#060D1A] text-white text-xs py-2 px-3 sm:px-4 border-b border-cyan-500/20">
+        <div className="max-w-7xl mx-auto flex items-center justify-between gap-2">
+          {/* Left notice */}
+          <div className="flex items-center gap-4 text-[11px] sm:text-xs truncate">
+            <span className="flex items-center gap-1.5 text-cyan-400 font-semibold truncate">
+              <Truck className="w-3.5 h-3.5 flex-shrink-0" /> Envíos a todo Colombia
             </span>
             <span className="hidden md:flex items-center gap-1.5 text-slate-300">
-              <ShieldCheck className="w-3.5 h-3.5 text-cyan-400" /> Calidad 1:1 garantizada
+              <ShieldCheck className="w-3.5 h-3.5 text-cyan-400" /> Calidad 1:1
             </span>
             <span className="hidden lg:flex items-center gap-1.5 text-amber-400 font-medium">
-              <Sparkles className="w-3.5 h-3.5" /> Personaliza con tu nombre y número
+              <Sparkles className="w-3.5 h-3.5" /> Con opción estampado
             </span>
           </div>
 
-          <div className="flex items-center gap-4 text-[11px] sm:text-xs">
+          {/* Right link */}
+          <div className="flex items-center gap-3 text-[11px] sm:text-xs flex-shrink-0">
             <Link 
               href={whatsappUrl(settings.whatsapp || "573213831679", "¡Hola J&A Mundo Fútbol! 👋 Tengo una consulta sobre las camisetas.")}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-cyan-400 transition-colors flex items-center gap-1 text-slate-300"
             >
-              WhatsApp: <span className="text-white font-semibold">321 383 1679</span>
+              <span className="hidden sm:inline">WhatsApp:</span> <span className="text-white font-bold">321 383 1679</span>
             </Link>
             <span className="text-slate-600 hidden sm:inline">|</span>
             <Link 
               href="/admin" 
-              className="text-cyan-400/80 hover:text-cyan-300 flex items-center gap-1 font-medium transition-colors"
+              className="hidden sm:flex text-cyan-400/80 hover:text-cyan-300 items-center gap-1 font-medium transition-colors"
             >
-              <UserCheck className="w-3 h-3" /> Panel Admin
+              <UserCheck className="w-3 h-3" /> Admin
             </Link>
           </div>
         </div>
@@ -96,31 +98,29 @@ export function Navbar() {
       <nav 
         className={`w-full transition-all duration-300 ${
           scrolled 
-            ? "bg-[#0B1528]/95 backdrop-blur-md shadow-xl py-2.5 border-b border-cyan-500/30" 
-            : "bg-[#0B1528] py-3.5 border-b border-slate-800"
+            ? "bg-[#0B1528]/95 backdrop-blur-md shadow-xl py-2 sm:py-2.5 border-b border-cyan-500/30" 
+            : "bg-[#0B1528] py-2.5 sm:py-3.5 border-b border-slate-800"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between gap-4">
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 flex items-center justify-between gap-2 sm:gap-4">
           
           {/* Logo & Brand Name */}
-          <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
-            <div className="relative w-11 h-11 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-cyan-400 p-0.5 bg-white shadow-md shadow-cyan-500/20 group-hover:scale-105 transition-transform">
+          <Link href="/" className="flex items-center gap-2 sm:gap-3 group flex-shrink-0 min-w-0">
+            <div className="relative w-9 h-9 sm:w-11 sm:h-11 rounded-full overflow-hidden border-2 border-cyan-400 p-0.5 bg-white shadow-md shadow-cyan-500/20 group-hover:scale-105 transition-transform flex-shrink-0">
               <Image 
                 src="/logo.jpg" 
                 alt="J&A Mundo Fútbol Logo" 
-                width={48} 
-                height={48} 
+                width={44} 
+                height={44} 
                 className="w-full h-full object-cover rounded-full"
                 priority
               />
             </div>
-            <div className="flex flex-col">
-              <div className="flex items-center gap-1.5">
-                <span className="font-extrabold text-lg sm:text-xl tracking-wider text-white uppercase group-hover:text-cyan-400 transition-colors">
-                  J&A <span className="text-cyan-400">MUNDO FUTBOL</span>
-                </span>
-              </div>
-              <span className="text-[10px] sm:text-[11px] font-semibold tracking-widest text-cyan-300 uppercase -mt-0.5">
+            <div className="flex flex-col min-w-0">
+              <span className="font-black text-sm sm:text-lg tracking-wide text-white uppercase group-hover:text-cyan-400 transition-colors truncate">
+                J&A <span className="text-cyan-400">MUNDO FUTBOL</span>
+              </span>
+              <span className="text-[9px] sm:text-[10px] font-semibold tracking-wider text-cyan-300 uppercase -mt-0.5 truncate hidden xs:block">
                 Tu pasión, tu camiseta
               </span>
             </div>
@@ -216,8 +216,8 @@ export function Navbar() {
             </Link>
           </div>
 
-          {/* Action Icons (Search, Favorites, Cart) */}
-          <div className="flex items-center gap-2 sm:gap-3">
+          {/* Action Icons (Search, Favorites, Cart, Menu) */}
+          <div className="flex items-center gap-1 sm:gap-2.5 flex-shrink-0">
             {/* Search Button */}
             <button
               onClick={() => setSearchOpen(!searchOpen)}
@@ -245,18 +245,18 @@ export function Navbar() {
             {/* Cart Trigger */}
             <button
               onClick={openCart}
-              className="flex items-center gap-2 px-3 py-1.5 bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-400 hover:to-cyan-500 text-navy-950 font-bold rounded-xl shadow-md shadow-cyan-500/20 active:scale-95 transition-all text-sm"
+              className="flex items-center gap-1.5 px-2.5 py-1.5 sm:px-3 sm:py-1.5 bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-400 hover:to-cyan-500 text-slate-950 font-bold rounded-xl shadow-md shadow-cyan-500/20 active:scale-95 transition-all text-xs sm:text-sm"
               aria-label="Ver carrito"
             >
-              <div className="relative">
-                <ShoppingBag className="w-5 h-5 text-slate-950" />
+              <div className="relative flex items-center justify-center">
+                <ShoppingBag className="w-4 h-4 sm:w-5 sm:h-5 text-slate-950" />
                 {totalCartCount > 0 && (
-                  <span className="absolute -top-2 -right-2.5 bg-slate-900 text-cyan-300 border border-cyan-400 rounded-full w-5 h-5 text-[11px] font-black flex items-center justify-center">
+                  <span className="absolute -top-2 -right-2 bg-slate-900 text-cyan-300 border border-cyan-400 rounded-full w-4 h-4 sm:w-5 sm:h-5 text-[10px] font-black flex items-center justify-center">
                     {totalCartCount}
                   </span>
                 )}
               </div>
-              <span className="hidden md:inline font-extrabold text-slate-950">
+              <span className="hidden sm:inline font-extrabold text-slate-950">
                 {totalCartPrice > 0 ? formatPrice(totalCartPrice) : "Carrito"}
               </span>
             </button>
@@ -264,7 +264,7 @@ export function Navbar() {
             {/* Mobile Hamburger Toggle */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 text-slate-200 hover:text-cyan-400 rounded-lg hover:bg-white/5"
+              className="lg:hidden p-1.5 sm:p-2 text-slate-200 hover:text-cyan-400 rounded-lg hover:bg-white/5"
               aria-label="Abrir menú"
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -277,18 +277,18 @@ export function Navbar() {
           <div className="border-t border-slate-700/60 bg-[#0B1528] px-4 py-3 animate-in fade-in slide-in-from-top-1 duration-200">
             <div className="max-w-2xl mx-auto">
               <form onSubmit={handleSearchSubmit} className="relative flex items-center">
-                <Search className="w-5 h-5 absolute left-3.5 text-slate-400" />
+                <Search className="w-4 h-4 sm:w-5 sm:h-5 absolute left-3.5 text-slate-400" />
                 <input
                   type="text"
-                  placeholder="Buscar por equipo, liga, país, jugador (ej: Real Madrid, Millonarios, Retro)..."
+                  placeholder="Buscar por equipo, liga, país, jugador..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   autoFocus
-                  className="w-full bg-[#162447] text-white placeholder-slate-400 text-sm pl-11 pr-24 py-2.5 rounded-xl border border-cyan-500/30 focus:border-cyan-400 focus:outline-none focus:ring-1 focus:ring-cyan-400"
+                  className="w-full bg-[#162447] text-white placeholder-slate-400 text-xs sm:text-sm pl-10 pr-20 py-2 sm:py-2.5 rounded-xl border border-cyan-500/30 focus:border-cyan-400 focus:outline-none"
                 />
                 <button
                   type="submit"
-                  className="absolute right-1.5 px-4 py-1.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-xs rounded-lg transition-colors"
+                  className="absolute right-1.5 px-3 py-1 sm:px-4 sm:py-1.5 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-xs rounded-lg transition-colors"
                 >
                   Buscar
                 </button>
