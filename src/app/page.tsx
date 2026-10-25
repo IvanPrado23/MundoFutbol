@@ -80,15 +80,14 @@ export default function HomePage() {
                 className="group relative rounded-3xl bg-white border border-slate-200/80 p-4 sm:p-5 flex flex-col justify-between hover:shadow-xl hover:border-cyan-400 transition-all duration-300 overflow-hidden"
               >
                 {/* Background image preview */}
-                <div className="relative aspect-square w-full mb-3 flex items-center justify-center bg-slate-50 rounded-2xl overflow-hidden p-2">
+                <div className="relative aspect-square w-full mb-3 flex items-center justify-center bg-gradient-to-b from-slate-50 to-slate-100/70 rounded-2xl overflow-hidden p-3 group-hover:from-cyan-50/40 group-hover:to-slate-100 transition-colors">
                   <Image
                     src={cat.image || "/logo.jpg"}
                     alt={cat.name}
                     fill
-                    className="object-contain p-2 group-hover:scale-110 transition-transform duration-500"
+                    className="object-contain p-2 drop-shadow-md group-hover:drop-shadow-xl group-hover:scale-110 transition-all duration-500"
                     sizes="(max-width: 640px) 50vw, 25vw"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 </div>
 
                 {/* Info */}

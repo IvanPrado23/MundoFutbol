@@ -84,6 +84,12 @@ async function localList<T extends Entity>(col: CollectionName): Promise<T[]> {
         b.image ? b.image.includes("/seed/products/") : true
       );
       if (!hasOldImages && stored.length >= DEFAULT_BANNERS.length) return stored;
+    } else if (col === "categories") {
+      // Si las categorías guardadas en local usan las imágenes antiguas con fondo blanco, actualizar
+      const hasOldImages = (stored as unknown as Category[]).some((c) =>
+        c.image ? c.image.includes("/seed/products/") : true
+      );
+      if (!hasOldImages && stored.length >= DEFAULT_CATEGORIES.length) return stored;
     } else {
       return stored;
     }

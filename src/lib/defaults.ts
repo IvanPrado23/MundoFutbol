@@ -3,14 +3,14 @@ import type { Banner, Category, StoreSettings, Team } from "./types";
 export const ADMIN_EMAILS = ["pradoblancop@gmail.com", "adrianapradob@hotmail.com"];
 
 export const DEFAULT_CATEGORIES: Category[] = [
-  { id: "retro", slug: "retro", name: "Camisetas Retro", image: "/seed/products/retro-real-madrid-02.webp", description: "Las camisetas que hicieron historia.", order: 0 },
-  { id: "mundialistas", slug: "mundialistas", name: "Mundialistas", image: "/seed/products/mundialistas-general-01.webp", description: "Viste los colores de tu selección.", order: 1 },
-  { id: "internacionales", slug: "internacionales", name: "Internacionales 1:1", image: "/seed/products/internacionales-general-05.webp", description: "Tipo jugador, calidad 1:1.", order: 2 },
-  { id: "liga-colombiana", slug: "liga-colombiana", name: "Liga Colombiana", image: "/seed/products/liga-colombiana-general-01.webp", description: "La pasión del fútbol colombiano.", order: 3 },
-  { id: "conjuntos-polo", slug: "conjuntos-polo", name: "Conjuntos tipo Polo", image: "/seed/products/conjuntos-polo-general-01.webp", description: "Elegancia con tu equipo.", order: 4 },
-  { id: "sudaderas-ninos", slug: "sudaderas-ninos", name: "Sudaderas Niños", image: "/seed/products/sudaderas-ninos-general-01.webp", description: "Para los futuros cracks.", order: 5 },
-  { id: "uniformes-futbol", slug: "uniformes-futbol", name: "Uniformes de Fútbol", image: "/seed/products/uniformes-futbol-general-01.webp", description: "Uniformes completos para tu equipo.", order: 6 },
-  { id: "uniformes-ninos", slug: "uniformes-ninos", name: "Uniformes Niños", image: "/seed/products/uniformes-ninos-general-01.webp", description: "Camiseta y pantaloneta para niños.", order: 7 },
+  { id: "retro", slug: "retro", name: "Camisetas Retro", image: "/categories/cat-retro.png", description: "Las camisetas que hicieron historia.", order: 0 },
+  { id: "mundialistas", slug: "mundialistas", name: "Mundialistas", image: "/categories/cat-mundialistas.png", description: "Viste los colores de tu selección.", order: 1 },
+  { id: "internacionales", slug: "internacionales", name: "Internacionales 1:1", image: "/categories/cat-internacionales.png", description: "Tipo jugador, calidad 1:1.", order: 2 },
+  { id: "liga-colombiana", slug: "liga-colombiana", name: "Liga Colombiana", image: "/categories/cat-liga-colombiana.png", description: "La pasión del fútbol colombiano.", order: 3 },
+  { id: "conjuntos-polo", slug: "conjuntos-polo", name: "Conjuntos tipo Polo", image: "/categories/cat-conjuntos-polo.png", description: "Elegancia con tu equipo.", order: 4 },
+  { id: "sudaderas-ninos", slug: "sudaderas-ninos", name: "Sudaderas Niños", image: "/categories/cat-sudaderas-ninos.png", description: "Para los futuros cracks.", order: 5 },
+  { id: "uniformes-futbol", slug: "uniformes-futbol", name: "Uniformes de Fútbol", image: "/categories/cat-uniformes-futbol.png", description: "Uniformes completos para tu equipo.", order: 6 },
+  { id: "uniformes-ninos", slug: "uniformes-ninos", name: "Uniformes Niños", image: "/categories/cat-uniformes-ninos.png", description: "Camiseta y pantaloneta para niños.", order: 7 },
 ];
 
 const teamNames = [
