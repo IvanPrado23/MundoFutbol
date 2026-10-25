@@ -207,7 +207,7 @@ export default function AdminPage() {
       price: 85000,
       salePrice: null,
       sizes: defaultSizes,
-      customization: { enabled: true, extraPrice: 25000 },
+      customization: { enabled: true, extraPrice: settings.customizationDefault || 15000 },
       isNew: true,
       isFeatured: false,
       hidden: false,

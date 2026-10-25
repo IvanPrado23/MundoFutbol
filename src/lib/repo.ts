@@ -71,10 +71,25 @@ async function localList<T extends Entity>(col: CollectionName): Promise<T[]> {
     // Si los productos guardados en caché local tienen nombres genéricos antiguos ("Retro #1", etc.),
     // actualizamos automáticamente a los nombres reales del seed actualizado.
     if (col === "products") {
-      const hasOldGenericNames = (stored as unknown as Product[]).some(
+      const prods = stored as unknown as Product[];
+      const hasOldGenericNames = prods.some(
         (p) => p.name && /#(?:[0-9]+)/.test(p.name)
       );
-      if (!hasOldGenericNames) return stored;
+      if (!hasOldGenericNames) {
+        const hasOldExtraPrice = prods.some(
+          (p) => p.customization?.extraPrice === 25000
+        );
+        if (hasOldExtraPrice) {
+          const updated = prods.map((p) =>
+            p.customization && p.customization.extraPrice === 25000
+              ? { ...p, customization: { ...p.customization, extraPrice: 15000 } }
+              : p
+          );
+          lsSet(col, updated);
+          return updated as unknown as T[];
+        }
+        return stored;
+      }
     } else if (col === "teams") {
       // Si la lista de equipos en local tiene menos equipos que el nuevo DEFAULT_TEAMS, actualizar
       if (stored.length >= DEFAULT_TEAMS.length) return stored;
@@ -151,9 +166,22 @@ export async function saveOrder(col: CollectionName, ids: string[]): Promise<voi
 }
 
 export async function getSettings(): Promise<StoreSettings> {
-  if (!isFirebaseEnabled) return { ...DEFAULT_SETTINGS, ...(lsGet<StoreSettings>("settings") ?? {}) };
+  if (!isFirebaseEnabled) {
+    const raw = lsGet<StoreSettings>("settings");
+    const merged: StoreSettings = { ...DEFAULT_SETTINGS, ...(raw ?? {}) };
+    if (merged.customizationDefault === 25000) {
+      merged.customizationDefault = 15000;
+      lsSet("settings", merged);
+    }
+    return merged;
+  }
   const snap = await getDoc(doc(db(), "settings", "store"));
-  return { ...DEFAULT_SETTINGS, ...((snap.data() as StoreSettings | undefined) ?? {}) };
+  const data = (snap.data() as Partial<StoreSettings> | undefined) ?? {};
+  const merged: StoreSettings = { ...DEFAULT_SETTINGS, ...data };
+  if (merged.customizationDefault === 25000) {
+    merged.customizationDefault = 15000;
+  }
+  return merged;
 }
 
 export async function saveSettings(s: StoreSettings): Promise<void> {

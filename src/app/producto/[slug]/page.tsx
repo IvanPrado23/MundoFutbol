@@ -50,7 +50,7 @@ function ProductDetailInner({ params }: ProductPageProps) {
   const soldOut = product ? isSoldOut(product) : false;
 
   const basePrice = product ? effectivePrice(product) : 0;
-  const extraPrice = customEnabled ? (product?.customization?.extraPrice || settings.customizationDefault || 25000) : 0;
+  const extraPrice = customEnabled ? (product?.customization?.extraPrice || settings.customizationDefault || 15000) : 0;
   const totalPrice = (basePrice + extraPrice) * quantity;
 
   // Active available sizes
@@ -319,7 +319,7 @@ function ProductDetailInner({ params }: ProductPageProps) {
                   </div>
                 </div>
                 <span className="text-xs font-black text-cyan-800 ml-auto whitespace-nowrap">
-                  +{formatPrice(product.customization.extraPrice || settings.customizationDefault || 25000)}
+                  +{formatPrice(product.customization.extraPrice || settings.customizationDefault || 15000)}
                 </span>
               </label>
 

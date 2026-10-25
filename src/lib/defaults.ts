@@ -102,5 +102,5 @@ export const DEFAULT_SETTINGS: StoreSettings = {
   ],
   sizeGuide:
     "Talla | Ancho (cm) | Largo (cm)\nS | 48 | 69\nM | 51 | 71\nL | 54 | 73\nXL | 57 | 75\nXXL | 60 | 77",
-  customizationDefault: 25000,
+  customizationDefault: 15000,
 };

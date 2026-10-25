@@ -39,7 +39,7 @@ export function ProductQuickView({ product, onClose }: QuickViewProps) {
   const soldOut = isSoldOut(product);
 
   const basePrice = effectivePrice(product);
-  const extraPrice = customEnabled ? (product.customization?.extraPrice || settings.customizationDefault || 25000) : 0;
+  const extraPrice = customEnabled ? (product.customization?.extraPrice || settings.customizationDefault || 15000) : 0;
   const totalPrice = (basePrice + extraPrice) * quantity;
 
   const handleAddToCart = () => {
@@ -220,7 +220,7 @@ export function ProductQuickView({ product, onClose }: QuickViewProps) {
                     Personalizar con Nombre y Número
                   </span>
                   <span className="text-xs font-extrabold text-cyan-700 ml-auto">
-                    +{formatPrice(product.customization.extraPrice || settings.customizationDefault || 25000)}
+                    +{formatPrice(product.customization.extraPrice || settings.customizationDefault || 15000)}
                   </span>
                 </label>
 
