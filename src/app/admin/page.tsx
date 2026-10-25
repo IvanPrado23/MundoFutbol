@@ -154,7 +154,13 @@ export default function AdminPage() {
         setAuthLoading(false);
       }
     } else {
-      // Demo / offline mode allows instant login for authorized admins
+      // Si definiste NEXT_PUBLIC_ADMIN_PASSWORD en .env.local, se valida aquí:
+      const requiredPass = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;
+      if (requiredPass && loginPass !== requiredPass) {
+        setAuthError("Contraseña incorrecta. Verifica tu clave de administrador.");
+        setAuthLoading(false);
+        return;
+      }
       setCurrentUserEmail(email);
       localStorage.setItem("mf-admin-session", email);
       setAuthLoading(false);
