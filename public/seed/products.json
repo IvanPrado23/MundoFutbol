@@ -1,0 +1,4900 @@
+[
+  {
+    "id": "retro-general-01",
+    "name": "Retro #1",
+    "slug": "retro-general-01",
+    "categorySlug": "retro",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-general-01.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 0,
+    "page": 4
+  },
+  {
+    "id": "retro-general-02",
+    "name": "Retro #2",
+    "slug": "retro-general-02",
+    "categorySlug": "retro",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-general-02.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 1,
+    "page": 4
+  },
+  {
+    "id": "retro-general-03",
+    "name": "Retro #3",
+    "slug": "retro-general-03",
+    "categorySlug": "retro",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-general-03.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 2,
+    "page": 4
+  },
+  {
+    "id": "retro-general-04",
+    "name": "Retro #4",
+    "slug": "retro-general-04",
+    "categorySlug": "retro",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-general-04.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 3,
+    "page": 4
+  },
+  {
+    "id": "retro-general-05",
+    "name": "Retro #5",
+    "slug": "retro-general-05",
+    "categorySlug": "retro",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-general-05.webp"
+    ],
+    "price": 60000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 4,
+    "page": 5
+  },
+  {
+    "id": "retro-general-06",
+    "name": "Retro #6",
+    "slug": "retro-general-06",
+    "categorySlug": "retro",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-general-06.webp"
+    ],
+    "price": 65000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 5,
+    "page": 5
+  },
+  {
+    "id": "retro-general-07",
+    "name": "Retro #7",
+    "slug": "retro-general-07",
+    "categorySlug": "retro",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-general-07.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 6,
+    "page": 5
+  },
+  {
+    "id": "retro-general-08",
+    "name": "Retro #8",
+    "slug": "retro-general-08",
+    "categorySlug": "retro",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-general-08.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 7,
+    "page": 5
+  },
+  {
+    "id": "retro-general-09",
+    "name": "Retro #9",
+    "slug": "retro-general-09",
+    "categorySlug": "retro",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-general-09.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 8,
+    "page": 5
+  },
+  {
+    "id": "retro-liverpool-01",
+    "name": "Liverpool Retro #1",
+    "slug": "retro-liverpool-01",
+    "categorySlug": "retro",
+    "teamSlug": "liverpool",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-liverpool-01.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 9,
+    "page": 6
+  },
+  {
+    "id": "retro-liverpool-02",
+    "name": "Liverpool Retro #2",
+    "slug": "retro-liverpool-02",
+    "categorySlug": "retro",
+    "teamSlug": "liverpool",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-liverpool-02.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 10,
+    "page": 6
+  },
+  {
+    "id": "retro-liverpool-03",
+    "name": "Liverpool Retro #3",
+    "slug": "retro-liverpool-03",
+    "categorySlug": "retro",
+    "teamSlug": "liverpool",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-liverpool-03.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 11,
+    "page": 6
+  },
+  {
+    "id": "retro-liverpool-04",
+    "name": "Liverpool Retro #4",
+    "slug": "retro-liverpool-04",
+    "categorySlug": "retro",
+    "teamSlug": "liverpool",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-liverpool-04.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 12,
+    "page": 6
+  },
+  {
+    "id": "retro-liverpool-05",
+    "name": "Liverpool Retro #5",
+    "slug": "retro-liverpool-05",
+    "categorySlug": "retro",
+    "teamSlug": "liverpool",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-liverpool-05.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 13,
+    "page": 6
+  },
+  {
+    "id": "retro-ac-milan-01",
+    "name": "AC Milan Retro #1",
+    "slug": "retro-ac-milan-01",
+    "categorySlug": "retro",
+    "teamSlug": "ac-milan",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-ac-milan-01.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 14,
+    "page": 7
+  },
+  {
+    "id": "retro-ac-milan-02",
+    "name": "AC Milan Retro #2",
+    "slug": "retro-ac-milan-02",
+    "categorySlug": "retro",
+    "teamSlug": "ac-milan",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-ac-milan-02.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 15,
+    "page": 7
+  },
+  {
+    "id": "retro-ac-milan-03",
+    "name": "AC Milan Retro #3",
+    "slug": "retro-ac-milan-03",
+    "categorySlug": "retro",
+    "teamSlug": "ac-milan",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-ac-milan-03.webp"
+    ],
+    "price": 110000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 16,
+    "page": 7
+  },
+  {
+    "id": "retro-ac-milan-04",
+    "name": "AC Milan Retro #4",
+    "slug": "retro-ac-milan-04",
+    "categorySlug": "retro",
+    "teamSlug": "ac-milan",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-ac-milan-04.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 17,
+    "page": 7
+  },
+  {
+    "id": "retro-barcelona-01",
+    "name": "Barcelona Retro #1",
+    "slug": "retro-barcelona-01",
+    "categorySlug": "retro",
+    "teamSlug": "barcelona",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-barcelona-01.webp"
+    ],
+    "price": 110000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 18,
+    "page": 8
+  },
+  {
+    "id": "retro-barcelona-02",
+    "name": "Barcelona Retro #2",
+    "slug": "retro-barcelona-02",
+    "categorySlug": "retro",
+    "teamSlug": "barcelona",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-barcelona-02.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 19,
+    "page": 8
+  },
+  {
+    "id": "retro-barcelona-03",
+    "name": "Barcelona Retro #3",
+    "slug": "retro-barcelona-03",
+    "categorySlug": "retro",
+    "teamSlug": "barcelona",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-barcelona-03.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 20,
+    "page": 8
+  },
+  {
+    "id": "retro-barcelona-04",
+    "name": "Barcelona Retro #4",
+    "slug": "retro-barcelona-04",
+    "categorySlug": "retro",
+    "teamSlug": "barcelona",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-barcelona-04.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 21,
+    "page": 8
+  },
+  {
+    "id": "retro-barcelona-05",
+    "name": "Barcelona Retro #5",
+    "slug": "retro-barcelona-05",
+    "categorySlug": "retro",
+    "teamSlug": "barcelona",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-barcelona-05.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 22,
+    "page": 8
+  },
+  {
+    "id": "retro-barcelona-06",
+    "name": "Barcelona Retro #6",
+    "slug": "retro-barcelona-06",
+    "categorySlug": "retro",
+    "teamSlug": "barcelona",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-barcelona-06.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 23,
+    "page": 8
+  },
+  {
+    "id": "retro-barcelona-07",
+    "name": "Barcelona Retro #7",
+    "slug": "retro-barcelona-07",
+    "categorySlug": "retro",
+    "teamSlug": "barcelona",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-barcelona-07.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 24,
+    "page": 8
+  },
+  {
+    "id": "retro-real-madrid-01",
+    "name": "Real Madrid Retro #1",
+    "slug": "retro-real-madrid-01",
+    "categorySlug": "retro",
+    "teamSlug": "real-madrid",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-real-madrid-01.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 25,
+    "page": 9
+  },
+  {
+    "id": "retro-real-madrid-02",
+    "name": "Real Madrid Retro #2",
+    "slug": "retro-real-madrid-02",
+    "categorySlug": "retro",
+    "teamSlug": "real-madrid",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-real-madrid-02.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 26,
+    "page": 9
+  },
+  {
+    "id": "retro-real-madrid-03",
+    "name": "Real Madrid Retro #3",
+    "slug": "retro-real-madrid-03",
+    "categorySlug": "retro",
+    "teamSlug": "real-madrid",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-real-madrid-03.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 27,
+    "page": 9
+  },
+  {
+    "id": "retro-real-madrid-04",
+    "name": "Real Madrid Retro #4",
+    "slug": "retro-real-madrid-04",
+    "categorySlug": "retro",
+    "teamSlug": "real-madrid",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-real-madrid-04.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 28,
+    "page": 9
+  },
+  {
+    "id": "retro-real-madrid-05",
+    "name": "Real Madrid Retro #5",
+    "slug": "retro-real-madrid-05",
+    "categorySlug": "retro",
+    "teamSlug": "real-madrid",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-real-madrid-05.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 29,
+    "page": 9
+  },
+  {
+    "id": "retro-real-madrid-06",
+    "name": "Real Madrid Retro #6",
+    "slug": "retro-real-madrid-06",
+    "categorySlug": "retro",
+    "teamSlug": "real-madrid",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-real-madrid-06.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 30,
+    "page": 9
+  },
+  {
+    "id": "retro-real-madrid-07",
+    "name": "Real Madrid Retro #7",
+    "slug": "retro-real-madrid-07",
+    "categorySlug": "retro",
+    "teamSlug": "real-madrid",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-real-madrid-07.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 31,
+    "page": 9
+  },
+  {
+    "id": "retro-real-madrid-08",
+    "name": "Real Madrid Retro #8",
+    "slug": "retro-real-madrid-08",
+    "categorySlug": "retro",
+    "teamSlug": "real-madrid",
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/retro-real-madrid-08.webp"
+    ],
+    "price": 110000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 32,
+    "page": 9
+  },
+  {
+    "id": "mundialistas-general-01",
+    "name": "Mundialista #1",
+    "slug": "mundialistas-general-01",
+    "categorySlug": "mundialistas",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/mundialistas-general-01.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 33,
+    "page": 11
+  },
+  {
+    "id": "mundialistas-general-02",
+    "name": "Mundialista #2",
+    "slug": "mundialistas-general-02",
+    "categorySlug": "mundialistas",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/mundialistas-general-02.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 34,
+    "page": 11
+  },
+  {
+    "id": "mundialistas-general-03",
+    "name": "Mundialista #3",
+    "slug": "mundialistas-general-03",
+    "categorySlug": "mundialistas",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/mundialistas-general-03.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 35,
+    "page": 11
+  },
+  {
+    "id": "mundialistas-general-04",
+    "name": "Mundialista #4",
+    "slug": "mundialistas-general-04",
+    "categorySlug": "mundialistas",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/mundialistas-general-04.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 36,
+    "page": 11
+  },
+  {
+    "id": "mundialistas-general-05",
+    "name": "Mundialista #5",
+    "slug": "mundialistas-general-05",
+    "categorySlug": "mundialistas",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/mundialistas-general-05.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 37,
+    "page": 12
+  },
+  {
+    "id": "mundialistas-general-06",
+    "name": "Mundialista #6",
+    "slug": "mundialistas-general-06",
+    "categorySlug": "mundialistas",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/mundialistas-general-06.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 38,
+    "page": 12
+  },
+  {
+    "id": "mundialistas-general-07",
+    "name": "Mundialista #7",
+    "slug": "mundialistas-general-07",
+    "categorySlug": "mundialistas",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/mundialistas-general-07.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 39,
+    "page": 12
+  },
+  {
+    "id": "mundialistas-general-08",
+    "name": "Mundialista #8",
+    "slug": "mundialistas-general-08",
+    "categorySlug": "mundialistas",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/mundialistas-general-08.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 40,
+    "page": 12
+  },
+  {
+    "id": "internacionales-general-01",
+    "name": "Internacional 1:1 #1",
+    "slug": "internacionales-general-01",
+    "categorySlug": "internacionales",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/internacionales-general-01.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 41,
+    "page": 14
+  },
+  {
+    "id": "internacionales-general-02",
+    "name": "Internacional 1:1 #2",
+    "slug": "internacionales-general-02",
+    "categorySlug": "internacionales",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/internacionales-general-02.webp"
+    ],
+    "price": 80000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 42,
+    "page": 14
+  },
+  {
+    "id": "internacionales-general-03",
+    "name": "Internacional 1:1 #3",
+    "slug": "internacionales-general-03",
+    "categorySlug": "internacionales",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/internacionales-general-03.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 43,
+    "page": 14
+  },
+  {
+    "id": "internacionales-general-04",
+    "name": "Internacional 1:1 #4",
+    "slug": "internacionales-general-04",
+    "categorySlug": "internacionales",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/internacionales-general-04.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 44,
+    "page": 14
+  },
+  {
+    "id": "internacionales-general-05",
+    "name": "Internacional 1:1 #5",
+    "slug": "internacionales-general-05",
+    "categorySlug": "internacionales",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/internacionales-general-05.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 45,
+    "page": 15
+  },
+  {
+    "id": "internacionales-general-06",
+    "name": "Internacional 1:1 #6",
+    "slug": "internacionales-general-06",
+    "categorySlug": "internacionales",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/internacionales-general-06.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 46,
+    "page": 15
+  },
+  {
+    "id": "internacionales-general-07",
+    "name": "Internacional 1:1 #7",
+    "slug": "internacionales-general-07",
+    "categorySlug": "internacionales",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/internacionales-general-07.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 47,
+    "page": 15
+  },
+  {
+    "id": "internacionales-general-08",
+    "name": "Internacional 1:1 #8",
+    "slug": "internacionales-general-08",
+    "categorySlug": "internacionales",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/internacionales-general-08.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 48,
+    "page": 15
+  },
+  {
+    "id": "internacionales-general-09",
+    "name": "Internacional 1:1 #9",
+    "slug": "internacionales-general-09",
+    "categorySlug": "internacionales",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/internacionales-general-09.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 49,
+    "page": 16
+  },
+  {
+    "id": "internacionales-general-10",
+    "name": "Internacional 1:1 #10",
+    "slug": "internacionales-general-10",
+    "categorySlug": "internacionales",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/internacionales-general-10.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 50,
+    "page": 16
+  },
+  {
+    "id": "internacionales-general-11",
+    "name": "Internacional 1:1 #11",
+    "slug": "internacionales-general-11",
+    "categorySlug": "internacionales",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/internacionales-general-11.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 51,
+    "page": 16
+  },
+  {
+    "id": "internacionales-general-12",
+    "name": "Internacional 1:1 #12",
+    "slug": "internacionales-general-12",
+    "categorySlug": "internacionales",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/internacionales-general-12.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 52,
+    "page": 16
+  },
+  {
+    "id": "internacionales-general-13",
+    "name": "Internacional 1:1 #13",
+    "slug": "internacionales-general-13",
+    "categorySlug": "internacionales",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/internacionales-general-13.webp"
+    ],
+    "price": 90000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 53,
+    "page": 17
+  },
+  {
+    "id": "internacionales-general-14",
+    "name": "Internacional 1:1 #14",
+    "slug": "internacionales-general-14",
+    "categorySlug": "internacionales",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/internacionales-general-14.webp"
+    ],
+    "price": 90000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 54,
+    "page": 17
+  },
+  {
+    "id": "internacionales-general-15",
+    "name": "Internacional 1:1 #15",
+    "slug": "internacionales-general-15",
+    "categorySlug": "internacionales",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/internacionales-general-15.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 55,
+    "page": 17
+  },
+  {
+    "id": "internacionales-general-16",
+    "name": "Internacional 1:1 #16",
+    "slug": "internacionales-general-16",
+    "categorySlug": "internacionales",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/internacionales-general-16.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": true,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 56,
+    "page": 17
+  },
+  {
+    "id": "liga-colombiana-general-01",
+    "name": "Liga Colombiana #1",
+    "slug": "liga-colombiana-general-01",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-01.webp"
+    ],
+    "price": 70000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 57,
+    "page": 19
+  },
+  {
+    "id": "liga-colombiana-general-02",
+    "name": "Liga Colombiana #2",
+    "slug": "liga-colombiana-general-02",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-02.webp"
+    ],
+    "price": 60000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 58,
+    "page": 19
+  },
+  {
+    "id": "liga-colombiana-general-03",
+    "name": "Liga Colombiana #3",
+    "slug": "liga-colombiana-general-03",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-03.webp"
+    ],
+    "price": 120000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 59,
+    "page": 19
+  },
+  {
+    "id": "liga-colombiana-general-04",
+    "name": "Liga Colombiana #4",
+    "slug": "liga-colombiana-general-04",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-04.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 60,
+    "page": 19
+  },
+  {
+    "id": "liga-colombiana-general-05",
+    "name": "Liga Colombiana #5",
+    "slug": "liga-colombiana-general-05",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-05.webp"
+    ],
+    "price": 85000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 61,
+    "page": 19
+  },
+  {
+    "id": "liga-colombiana-general-06",
+    "name": "Liga Colombiana #6",
+    "slug": "liga-colombiana-general-06",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-06.webp"
+    ],
+    "price": 70000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 62,
+    "page": 20
+  },
+  {
+    "id": "liga-colombiana-general-07",
+    "name": "Liga Colombiana #7",
+    "slug": "liga-colombiana-general-07",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-07.webp"
+    ],
+    "price": 70000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 63,
+    "page": 20
+  },
+  {
+    "id": "liga-colombiana-general-08",
+    "name": "Liga Colombiana #8",
+    "slug": "liga-colombiana-general-08",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-08.webp"
+    ],
+    "price": 70000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 64,
+    "page": 20
+  },
+  {
+    "id": "liga-colombiana-general-09",
+    "name": "Liga Colombiana #9",
+    "slug": "liga-colombiana-general-09",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-09.webp"
+    ],
+    "price": 70000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 65,
+    "page": 20
+  },
+  {
+    "id": "liga-colombiana-general-10",
+    "name": "Liga Colombiana #10",
+    "slug": "liga-colombiana-general-10",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-10.webp"
+    ],
+    "price": 70000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 66,
+    "page": 21
+  },
+  {
+    "id": "liga-colombiana-general-11",
+    "name": "Liga Colombiana #11",
+    "slug": "liga-colombiana-general-11",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-11.webp"
+    ],
+    "price": 70000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 67,
+    "page": 21
+  },
+  {
+    "id": "liga-colombiana-general-12",
+    "name": "Liga Colombiana #12",
+    "slug": "liga-colombiana-general-12",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-12.webp"
+    ],
+    "price": 70000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 68,
+    "page": 21
+  },
+  {
+    "id": "liga-colombiana-general-13",
+    "name": "Liga Colombiana #13",
+    "slug": "liga-colombiana-general-13",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-13.webp"
+    ],
+    "price": 70000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 69,
+    "page": 21
+  },
+  {
+    "id": "liga-colombiana-general-mujer-01",
+    "name": "Liga Colombiana Mujer #1",
+    "slug": "liga-colombiana-general-mujer-01",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": true,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-mujer-01.webp"
+    ],
+    "price": 60000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "XS",
+        "soldOut": false
+      },
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 70,
+    "page": 22
+  },
+  {
+    "id": "liga-colombiana-general-mujer-02",
+    "name": "Liga Colombiana Mujer #2",
+    "slug": "liga-colombiana-general-mujer-02",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": true,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-mujer-02.webp"
+    ],
+    "price": 60000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "XS",
+        "soldOut": false
+      },
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 71,
+    "page": 22
+  },
+  {
+    "id": "liga-colombiana-general-mujer-03",
+    "name": "Liga Colombiana Mujer #3",
+    "slug": "liga-colombiana-general-mujer-03",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": true,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-mujer-03.webp"
+    ],
+    "price": 60000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "XS",
+        "soldOut": false
+      },
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 72,
+    "page": 22
+  },
+  {
+    "id": "liga-colombiana-general-mujer-04",
+    "name": "Liga Colombiana Mujer #4",
+    "slug": "liga-colombiana-general-mujer-04",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": true,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-mujer-04.webp"
+    ],
+    "price": 120000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "XS",
+        "soldOut": false
+      },
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 73,
+    "page": 22
+  },
+  {
+    "id": "liga-colombiana-general-mujer-05",
+    "name": "Liga Colombiana Mujer #5",
+    "slug": "liga-colombiana-general-mujer-05",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": true,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-mujer-05.webp"
+    ],
+    "price": 60000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "XS",
+        "soldOut": false
+      },
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 74,
+    "page": 23
+  },
+  {
+    "id": "liga-colombiana-general-mujer-06",
+    "name": "Liga Colombiana Mujer #6",
+    "slug": "liga-colombiana-general-mujer-06",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": true,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-mujer-06.webp"
+    ],
+    "price": 60000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "XS",
+        "soldOut": false
+      },
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 75,
+    "page": 23
+  },
+  {
+    "id": "liga-colombiana-general-mujer-07",
+    "name": "Liga Colombiana Mujer #7",
+    "slug": "liga-colombiana-general-mujer-07",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": true,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-mujer-07.webp"
+    ],
+    "price": 60000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "XS",
+        "soldOut": false
+      },
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 76,
+    "page": 23
+  },
+  {
+    "id": "liga-colombiana-general-mujer-08",
+    "name": "Liga Colombiana Mujer #8",
+    "slug": "liga-colombiana-general-mujer-08",
+    "categorySlug": "liga-colombiana",
+    "teamSlug": null,
+    "forWomen": true,
+    "description": "",
+    "images": [
+      "/seed/products/liga-colombiana-general-mujer-08.webp"
+    ],
+    "price": 60000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "XS",
+        "soldOut": false
+      },
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 77,
+    "page": 23
+  },
+  {
+    "id": "conjuntos-polo-general-01",
+    "name": "Conjunto Polo #1",
+    "slug": "conjuntos-polo-general-01",
+    "categorySlug": "conjuntos-polo",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/conjuntos-polo-general-01.webp"
+    ],
+    "price": 90000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 78,
+    "page": 25
+  },
+  {
+    "id": "conjuntos-polo-general-02",
+    "name": "Conjunto Polo #2",
+    "slug": "conjuntos-polo-general-02",
+    "categorySlug": "conjuntos-polo",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/conjuntos-polo-general-02.webp"
+    ],
+    "price": 90000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 79,
+    "page": 25
+  },
+  {
+    "id": "conjuntos-polo-general-03",
+    "name": "Conjunto Polo #3",
+    "slug": "conjuntos-polo-general-03",
+    "categorySlug": "conjuntos-polo",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/conjuntos-polo-general-03.webp"
+    ],
+    "price": 90000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 80,
+    "page": 25
+  },
+  {
+    "id": "conjuntos-polo-general-04",
+    "name": "Conjunto Polo #4",
+    "slug": "conjuntos-polo-general-04",
+    "categorySlug": "conjuntos-polo",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/conjuntos-polo-general-04.webp"
+    ],
+    "price": 90000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 81,
+    "page": 25
+  },
+  {
+    "id": "conjuntos-polo-general-05",
+    "name": "Conjunto Polo #5",
+    "slug": "conjuntos-polo-general-05",
+    "categorySlug": "conjuntos-polo",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/conjuntos-polo-general-05.webp"
+    ],
+    "price": 90000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 82,
+    "page": 26
+  },
+  {
+    "id": "conjuntos-polo-general-06",
+    "name": "Conjunto Polo #6",
+    "slug": "conjuntos-polo-general-06",
+    "categorySlug": "conjuntos-polo",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/conjuntos-polo-general-06.webp"
+    ],
+    "price": 90000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 83,
+    "page": 26
+  },
+  {
+    "id": "conjuntos-polo-general-07",
+    "name": "Conjunto Polo #7",
+    "slug": "conjuntos-polo-general-07",
+    "categorySlug": "conjuntos-polo",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/conjuntos-polo-general-07.webp"
+    ],
+    "price": 90000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 84,
+    "page": 26
+  },
+  {
+    "id": "conjuntos-polo-general-08",
+    "name": "Conjunto Polo #8",
+    "slug": "conjuntos-polo-general-08",
+    "categorySlug": "conjuntos-polo",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/conjuntos-polo-general-08.webp"
+    ],
+    "price": 90000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 85,
+    "page": 26
+  },
+  {
+    "id": "sudaderas-ninos-general-01",
+    "name": "Sudadera Niño #1",
+    "slug": "sudaderas-ninos-general-01",
+    "categorySlug": "sudaderas-ninos",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/sudaderas-ninos-general-01.webp"
+    ],
+    "price": 80000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "4",
+        "soldOut": false
+      },
+      {
+        "label": "6",
+        "soldOut": false
+      },
+      {
+        "label": "8",
+        "soldOut": false
+      },
+      {
+        "label": "10",
+        "soldOut": false
+      },
+      {
+        "label": "12",
+        "soldOut": false
+      },
+      {
+        "label": "14",
+        "soldOut": false
+      },
+      {
+        "label": "16",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 86,
+    "page": 28
+  },
+  {
+    "id": "sudaderas-ninos-general-02",
+    "name": "Sudadera Niño #2",
+    "slug": "sudaderas-ninos-general-02",
+    "categorySlug": "sudaderas-ninos",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/sudaderas-ninos-general-02.webp"
+    ],
+    "price": 80000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "4",
+        "soldOut": false
+      },
+      {
+        "label": "6",
+        "soldOut": false
+      },
+      {
+        "label": "8",
+        "soldOut": false
+      },
+      {
+        "label": "10",
+        "soldOut": false
+      },
+      {
+        "label": "12",
+        "soldOut": false
+      },
+      {
+        "label": "14",
+        "soldOut": false
+      },
+      {
+        "label": "16",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 87,
+    "page": 28
+  },
+  {
+    "id": "sudaderas-ninos-general-03",
+    "name": "Sudadera Niño #3",
+    "slug": "sudaderas-ninos-general-03",
+    "categorySlug": "sudaderas-ninos",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/sudaderas-ninos-general-03.webp"
+    ],
+    "price": 80000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "4",
+        "soldOut": false
+      },
+      {
+        "label": "6",
+        "soldOut": false
+      },
+      {
+        "label": "8",
+        "soldOut": false
+      },
+      {
+        "label": "10",
+        "soldOut": false
+      },
+      {
+        "label": "12",
+        "soldOut": false
+      },
+      {
+        "label": "14",
+        "soldOut": false
+      },
+      {
+        "label": "16",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 88,
+    "page": 28
+  },
+  {
+    "id": "sudaderas-ninos-general-04",
+    "name": "Sudadera Niño #4",
+    "slug": "sudaderas-ninos-general-04",
+    "categorySlug": "sudaderas-ninos",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/sudaderas-ninos-general-04.webp"
+    ],
+    "price": 80000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "4",
+        "soldOut": false
+      },
+      {
+        "label": "6",
+        "soldOut": false
+      },
+      {
+        "label": "8",
+        "soldOut": false
+      },
+      {
+        "label": "10",
+        "soldOut": false
+      },
+      {
+        "label": "12",
+        "soldOut": false
+      },
+      {
+        "label": "14",
+        "soldOut": false
+      },
+      {
+        "label": "16",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 89,
+    "page": 28
+  },
+  {
+    "id": "sudaderas-ninos-general-05",
+    "name": "Sudadera Niño #5",
+    "slug": "sudaderas-ninos-general-05",
+    "categorySlug": "sudaderas-ninos",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/sudaderas-ninos-general-05.webp"
+    ],
+    "price": 80000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "4",
+        "soldOut": false
+      },
+      {
+        "label": "6",
+        "soldOut": false
+      },
+      {
+        "label": "8",
+        "soldOut": false
+      },
+      {
+        "label": "10",
+        "soldOut": false
+      },
+      {
+        "label": "12",
+        "soldOut": false
+      },
+      {
+        "label": "14",
+        "soldOut": false
+      },
+      {
+        "label": "16",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 90,
+    "page": 29
+  },
+  {
+    "id": "sudaderas-ninos-general-06",
+    "name": "Sudadera Niño #6",
+    "slug": "sudaderas-ninos-general-06",
+    "categorySlug": "sudaderas-ninos",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/sudaderas-ninos-general-06.webp"
+    ],
+    "price": 80000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "4",
+        "soldOut": false
+      },
+      {
+        "label": "6",
+        "soldOut": false
+      },
+      {
+        "label": "8",
+        "soldOut": false
+      },
+      {
+        "label": "10",
+        "soldOut": false
+      },
+      {
+        "label": "12",
+        "soldOut": false
+      },
+      {
+        "label": "14",
+        "soldOut": false
+      },
+      {
+        "label": "16",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 91,
+    "page": 29
+  },
+  {
+    "id": "sudaderas-ninos-general-07",
+    "name": "Sudadera Niño #7",
+    "slug": "sudaderas-ninos-general-07",
+    "categorySlug": "sudaderas-ninos",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/sudaderas-ninos-general-07.webp"
+    ],
+    "price": 80000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "4",
+        "soldOut": false
+      },
+      {
+        "label": "6",
+        "soldOut": false
+      },
+      {
+        "label": "8",
+        "soldOut": false
+      },
+      {
+        "label": "10",
+        "soldOut": false
+      },
+      {
+        "label": "12",
+        "soldOut": false
+      },
+      {
+        "label": "14",
+        "soldOut": false
+      },
+      {
+        "label": "16",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 92,
+    "page": 29
+  },
+  {
+    "id": "sudaderas-ninos-general-08",
+    "name": "Sudadera Niño #8",
+    "slug": "sudaderas-ninos-general-08",
+    "categorySlug": "sudaderas-ninos",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/sudaderas-ninos-general-08.webp"
+    ],
+    "price": 80000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "4",
+        "soldOut": false
+      },
+      {
+        "label": "6",
+        "soldOut": false
+      },
+      {
+        "label": "8",
+        "soldOut": false
+      },
+      {
+        "label": "10",
+        "soldOut": false
+      },
+      {
+        "label": "12",
+        "soldOut": false
+      },
+      {
+        "label": "14",
+        "soldOut": false
+      },
+      {
+        "label": "16",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 93,
+    "page": 29
+  },
+  {
+    "id": "uniformes-futbol-general-01",
+    "name": "Uniforme de Fútbol #1",
+    "slug": "uniformes-futbol-general-01",
+    "categorySlug": "uniformes-futbol",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/uniformes-futbol-general-01.webp"
+    ],
+    "price": 60000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 94,
+    "page": 31
+  },
+  {
+    "id": "uniformes-futbol-general-02",
+    "name": "Uniforme de Fútbol #2",
+    "slug": "uniformes-futbol-general-02",
+    "categorySlug": "uniformes-futbol",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/uniformes-futbol-general-02.webp"
+    ],
+    "price": 60000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 95,
+    "page": 31
+  },
+  {
+    "id": "uniformes-futbol-general-03",
+    "name": "Uniforme de Fútbol #3",
+    "slug": "uniformes-futbol-general-03",
+    "categorySlug": "uniformes-futbol",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/uniformes-futbol-general-03.webp"
+    ],
+    "price": 60000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 96,
+    "page": 31
+  },
+  {
+    "id": "uniformes-futbol-general-04",
+    "name": "Uniforme de Fútbol #4",
+    "slug": "uniformes-futbol-general-04",
+    "categorySlug": "uniformes-futbol",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/uniformes-futbol-general-04.webp"
+    ],
+    "price": 60000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "S",
+        "soldOut": false
+      },
+      {
+        "label": "M",
+        "soldOut": false
+      },
+      {
+        "label": "L",
+        "soldOut": false
+      },
+      {
+        "label": "XL",
+        "soldOut": false
+      },
+      {
+        "label": "XXL",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 97,
+    "page": 31
+  },
+  {
+    "id": "uniformes-ninos-general-01",
+    "name": "Uniforme Niño #1",
+    "slug": "uniformes-ninos-general-01",
+    "categorySlug": "uniformes-ninos",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/uniformes-ninos-general-01.webp"
+    ],
+    "price": 60000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "4",
+        "soldOut": false
+      },
+      {
+        "label": "6",
+        "soldOut": false
+      },
+      {
+        "label": "8",
+        "soldOut": false
+      },
+      {
+        "label": "10",
+        "soldOut": false
+      },
+      {
+        "label": "12",
+        "soldOut": false
+      },
+      {
+        "label": "14",
+        "soldOut": false
+      },
+      {
+        "label": "16",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 98,
+    "page": 33
+  },
+  {
+    "id": "uniformes-ninos-general-02",
+    "name": "Uniforme Niño #2",
+    "slug": "uniformes-ninos-general-02",
+    "categorySlug": "uniformes-ninos",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/uniformes-ninos-general-02.webp"
+    ],
+    "price": 60000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "4",
+        "soldOut": false
+      },
+      {
+        "label": "6",
+        "soldOut": false
+      },
+      {
+        "label": "8",
+        "soldOut": false
+      },
+      {
+        "label": "10",
+        "soldOut": false
+      },
+      {
+        "label": "12",
+        "soldOut": false
+      },
+      {
+        "label": "14",
+        "soldOut": false
+      },
+      {
+        "label": "16",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 99,
+    "page": 33
+  },
+  {
+    "id": "uniformes-ninos-general-03",
+    "name": "Uniforme Niño #3",
+    "slug": "uniformes-ninos-general-03",
+    "categorySlug": "uniformes-ninos",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/uniformes-ninos-general-03.webp"
+    ],
+    "price": 45000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "4",
+        "soldOut": false
+      },
+      {
+        "label": "6",
+        "soldOut": false
+      },
+      {
+        "label": "8",
+        "soldOut": false
+      },
+      {
+        "label": "10",
+        "soldOut": false
+      },
+      {
+        "label": "12",
+        "soldOut": false
+      },
+      {
+        "label": "14",
+        "soldOut": false
+      },
+      {
+        "label": "16",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 100,
+    "page": 33
+  },
+  {
+    "id": "uniformes-ninos-general-04",
+    "name": "Uniforme Niño #4",
+    "slug": "uniformes-ninos-general-04",
+    "categorySlug": "uniformes-ninos",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/uniformes-ninos-general-04.webp"
+    ],
+    "price": 45000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "4",
+        "soldOut": false
+      },
+      {
+        "label": "6",
+        "soldOut": false
+      },
+      {
+        "label": "8",
+        "soldOut": false
+      },
+      {
+        "label": "10",
+        "soldOut": false
+      },
+      {
+        "label": "12",
+        "soldOut": false
+      },
+      {
+        "label": "14",
+        "soldOut": false
+      },
+      {
+        "label": "16",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 101,
+    "page": 33
+  },
+  {
+    "id": "uniformes-ninos-general-05",
+    "name": "Uniforme Niño #5",
+    "slug": "uniformes-ninos-general-05",
+    "categorySlug": "uniformes-ninos",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/uniformes-ninos-general-05.webp"
+    ],
+    "price": 45000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "4",
+        "soldOut": false
+      },
+      {
+        "label": "6",
+        "soldOut": false
+      },
+      {
+        "label": "8",
+        "soldOut": false
+      },
+      {
+        "label": "10",
+        "soldOut": false
+      },
+      {
+        "label": "12",
+        "soldOut": false
+      },
+      {
+        "label": "14",
+        "soldOut": false
+      },
+      {
+        "label": "16",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 102,
+    "page": 34
+  },
+  {
+    "id": "uniformes-ninos-general-06",
+    "name": "Uniforme Niño #6",
+    "slug": "uniformes-ninos-general-06",
+    "categorySlug": "uniformes-ninos",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/uniformes-ninos-general-06.webp"
+    ],
+    "price": 45000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "4",
+        "soldOut": false
+      },
+      {
+        "label": "6",
+        "soldOut": false
+      },
+      {
+        "label": "8",
+        "soldOut": false
+      },
+      {
+        "label": "10",
+        "soldOut": false
+      },
+      {
+        "label": "12",
+        "soldOut": false
+      },
+      {
+        "label": "14",
+        "soldOut": false
+      },
+      {
+        "label": "16",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 103,
+    "page": 34
+  },
+  {
+    "id": "uniformes-ninos-general-07",
+    "name": "Uniforme Niño #7",
+    "slug": "uniformes-ninos-general-07",
+    "categorySlug": "uniformes-ninos",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/uniformes-ninos-general-07.webp"
+    ],
+    "price": 45000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "4",
+        "soldOut": false
+      },
+      {
+        "label": "6",
+        "soldOut": false
+      },
+      {
+        "label": "8",
+        "soldOut": false
+      },
+      {
+        "label": "10",
+        "soldOut": false
+      },
+      {
+        "label": "12",
+        "soldOut": false
+      },
+      {
+        "label": "14",
+        "soldOut": false
+      },
+      {
+        "label": "16",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 104,
+    "page": 34
+  },
+  {
+    "id": "uniformes-ninos-general-08",
+    "name": "Uniforme Niño #8",
+    "slug": "uniformes-ninos-general-08",
+    "categorySlug": "uniformes-ninos",
+    "teamSlug": null,
+    "forWomen": false,
+    "description": "",
+    "images": [
+      "/seed/products/uniformes-ninos-general-08.webp"
+    ],
+    "price": 45000,
+    "salePrice": null,
+    "sizes": [
+      {
+        "label": "4",
+        "soldOut": false
+      },
+      {
+        "label": "6",
+        "soldOut": false
+      },
+      {
+        "label": "8",
+        "soldOut": false
+      },
+      {
+        "label": "10",
+        "soldOut": false
+      },
+      {
+        "label": "12",
+        "soldOut": false
+      },
+      {
+        "label": "14",
+        "soldOut": false
+      },
+      {
+        "label": "16",
+        "soldOut": false
+      }
+    ],
+    "customization": {
+      "enabled": false,
+      "extraPrice": 25000
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "hidden": false,
+    "order": 105,
+    "page": 34
+  }
+]

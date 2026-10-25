@@ -1,0 +1,370 @@
+rules_version = '2';
+
+// ===============================================================
+// MundoFutbol - Firestore Security Rules (PROTOTYPE - review before production)
+// ===============================================================
+//
+// Assumed Data Model
+// ---------------------------------------------------------------
+// Admins: Firebase Auth (email/password). Authority = request.auth.token.email
+// matched against a hard-coded allowlist in isAdmin(). No Admin SDK is used.
+//
+// Collection: products/{id}            (public read, admin write)
+//   - name: string (required, 1..120)
+//   - slug: string (required, 1..120)
+//   - categorySlug: string (required, 1..120)
+//   - teamSlug: string (1..120) | null (optional)
+//   - forWomen: bool (optional)
+//   - description: string (optional, <= 2000)
+//   - images: list<string> (required, <= 10, each http(s) URL or "/path", <= 1000)
+//   - price: number (required, 0..100,000,000)
+//   - salePrice: number (0..100,000,000) | null (optional)
+//   - sizes: list<map{label: string 1..20, soldOut: bool}> (required, <= 20)
+//   - customization: map{enabled: bool, extraPrice: number >= 0} (optional)
+//   - isNew, isFeatured: bool (optional)
+//   - hidden: bool (required)  -- hidden products are NOT secret, just not listed
+//   - order: number (required)
+//   - createdAt: timestamp | number (optional, immutable once set)
+//   - updatedAt: timestamp | number (optional)
+//
+// Collection: categories/{id}          (public read, admin write)
+//   - name: string (required, 1..80), slug: string (required, 1..120)
+//   - image: string (optional, <= 1000, URL/path or empty), order: number (optional)
+//
+// Collection: teams/{id}               (public read, admin write)
+//   - name: string (required, 1..80), slug: string (required, 1..120)
+//   - order: number (optional)
+//
+// Collection: banners/{id}             (public read, admin write)
+//   - image: string (required, URL/path, <= 1000)
+//   - title, subtitle, buttonText: string (optional, <= 200)
+//   - link: string (optional, <= 1000)
+//   - active: bool (optional), order: number (optional)
+//
+// Collection: settings/{docId}         (public read, admin write; only docId == 'store')
+//   - whatsapp: string (<= 30)
+//   - socials: map (<= 15 keys)
+//   - about, shipping, payments, sizeGuide: string (<= 5000)
+//   - faq: list<map{q: string 1..300, a: string 1..2000}> (<= 30)
+//   - customizationDefault: number (>= 0)
+//   (all optional, no extra fields allowed)
+//
+// Collection: orders/{id}
+//   - PUBLIC CREATE (unauthenticated allowed), strictly validated:
+//       keys exactly {items, customer, total, status, createdAt}
+//       items: list (1..50) of maps (each 1..12 keys)
+//       customer: map, keys subset of {name, phone, city, address, notes}
+//                 name required (1..80), others string <= 300
+//       total: number, 0 <= total < 100,000,000
+//       status: 'nuevo'
+//       createdAt: == request.time  (client must use serverTimestamp())
+//   - Admin: read, delete, update ONLY `status` to one of
+//       'nuevo' | 'confirmado' | 'entregado' | 'cancelado'
+//   - No public read/update/delete (orders contain PII: phone, address).
+//
+// Everything else: denied.
+// ===============================================================
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // =============================================================
+    // Helper Functions
+    // =============================================================
+
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Hard-coded admin allowlist. email_verified intentionally NOT required
+    // (admin accounts are created manually in the Firebase console).
+    function isAdmin() {
+      return isAuthenticated()
+        && request.auth.token.email is string
+        && request.auth.token.email.lower() in [
+             'pradoblancop@gmail.com',
+             'adrianapradob@hotmail.com'
+           ];
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function isStr(v, minLen, maxLen) {
+      return v is string && v.size() >= minLen && v.size() <= maxLen;
+    }
+
+    // Optional string field: absent, or string within bounds.
+    function optStr(data, field, maxLen) {
+      return !(field in data) || isStr(data[field], 0, maxLen);
+    }
+
+    function optBool(data, field) {
+      return !(field in data) || data[field] is bool;
+    }
+
+    function optNum(data, field) {
+      return !(field in data) || data[field] is number;
+    }
+
+    function isMoney(v) {
+      return v is number && v >= 0 && v < 100000000;
+    }
+
+    function isTimeOrNumber(v) {
+      return v is timestamp || v is number;
+    }
+
+    // http(s) URL or site-relative path (e.g. images in /public), bounded length.
+    function isUrlOrPath(v) {
+      return isStr(v, 1, 1000)
+        && (v.matches('^https?://.+') || v.matches('^/.+'));
+    }
+
+    // createdAt may not change once set (admin re-saves must keep original value).
+    function createdAtUnchanged() {
+      return !('createdAt' in resource.data)
+        || (('createdAt' in incoming()) && incoming().createdAt == resource.data.createdAt);
+    }
+
+    // ---- List element validators (rules have no loops: check by index) ----
+
+    function imageOk(l, i) {
+      return l.size() <= i || isUrlOrPath(l[i]);
+    }
+
+    function isValidImages(l) {
+      return l is list && l.size() <= 10
+        && imageOk(l, 0) && imageOk(l, 1) && imageOk(l, 2) && imageOk(l, 3)
+        && imageOk(l, 4) && imageOk(l, 5) && imageOk(l, 6) && imageOk(l, 7)
+        && imageOk(l, 8) && imageOk(l, 9);
+    }
+
+    function isSize(s) {
+      return s is map
+        && s.keys().hasAll(['label', 'soldOut'])
+        && s.keys().hasOnly(['label', 'soldOut'])
+        && isStr(s.label, 1, 20)
+        && s.soldOut is bool;
+    }
+
+    function sizeOk(l, i) {
+      return l.size() <= i || isSize(l[i]);
+    }
+
+    function isValidSizes(l) {
+      return l is list && l.size() <= 20
+        && sizeOk(l, 0)  && sizeOk(l, 1)  && sizeOk(l, 2)  && sizeOk(l, 3)
+        && sizeOk(l, 4)  && sizeOk(l, 5)  && sizeOk(l, 6)  && sizeOk(l, 7)
+        && sizeOk(l, 8)  && sizeOk(l, 9)  && sizeOk(l, 10) && sizeOk(l, 11)
+        && sizeOk(l, 12) && sizeOk(l, 13) && sizeOk(l, 14) && sizeOk(l, 15)
+        && sizeOk(l, 16) && sizeOk(l, 17) && sizeOk(l, 18) && sizeOk(l, 19);
+    }
+
+    function isCustomization(c) {
+      return c is map
+        && c.keys().hasAll(['enabled', 'extraPrice'])
+        && c.keys().hasOnly(['enabled', 'extraPrice'])
+        && c.enabled is bool
+        && isMoney(c.extraPrice);
+    }
+
+    function isFaqItem(f) {
+      return f is map
+        && f.keys().hasAll(['q', 'a'])
+        && f.keys().hasOnly(['q', 'a'])
+        && isStr(f.q, 1, 300)
+        && isStr(f.a, 1, 2000);
+    }
+
+    function faqOk(l, i) {
+      return l.size() <= i || isFaqItem(l[i]);
+    }
+
+    function isValidFaq(l) {
+      return l is list && l.size() <= 30
+        && faqOk(l, 0)  && faqOk(l, 1)  && faqOk(l, 2)  && faqOk(l, 3)
+        && faqOk(l, 4)  && faqOk(l, 5)  && faqOk(l, 6)  && faqOk(l, 7)
+        && faqOk(l, 8)  && faqOk(l, 9)  && faqOk(l, 10) && faqOk(l, 11)
+        && faqOk(l, 12) && faqOk(l, 13) && faqOk(l, 14) && faqOk(l, 15)
+        && faqOk(l, 16) && faqOk(l, 17) && faqOk(l, 18) && faqOk(l, 19)
+        && faqOk(l, 20) && faqOk(l, 21) && faqOk(l, 22) && faqOk(l, 23)
+        && faqOk(l, 24) && faqOk(l, 25) && faqOk(l, 26) && faqOk(l, 27)
+        && faqOk(l, 28) && faqOk(l, 29);
+    }
+
+    // Order items: schema not fixed by the spec, so each item must be a
+    // small map (1..12 keys). Overall document size is capped by Firestore (1 MiB).
+    function orderItemOk(l, i) {
+      return l.size() <= i
+        || (l[i] is map && l[i].keys().size() >= 1 && l[i].keys().size() <= 12);
+    }
+
+    function isValidOrderItems(l) {
+      return l is list && l.size() >= 1 && l.size() <= 50
+        && orderItemOk(l, 0)  && orderItemOk(l, 1)  && orderItemOk(l, 2)  && orderItemOk(l, 3)
+        && orderItemOk(l, 4)  && orderItemOk(l, 5)  && orderItemOk(l, 6)  && orderItemOk(l, 7)
+        && orderItemOk(l, 8)  && orderItemOk(l, 9)  && orderItemOk(l, 10) && orderItemOk(l, 11)
+        && orderItemOk(l, 12) && orderItemOk(l, 13) && orderItemOk(l, 14) && orderItemOk(l, 15)
+        && orderItemOk(l, 16) && orderItemOk(l, 17) && orderItemOk(l, 18) && orderItemOk(l, 19)
+        && orderItemOk(l, 20) && orderItemOk(l, 21) && orderItemOk(l, 22) && orderItemOk(l, 23)
+        && orderItemOk(l, 24) && orderItemOk(l, 25) && orderItemOk(l, 26) && orderItemOk(l, 27)
+        && orderItemOk(l, 28) && orderItemOk(l, 29) && orderItemOk(l, 30) && orderItemOk(l, 31)
+        && orderItemOk(l, 32) && orderItemOk(l, 33) && orderItemOk(l, 34) && orderItemOk(l, 35)
+        && orderItemOk(l, 36) && orderItemOk(l, 37) && orderItemOk(l, 38) && orderItemOk(l, 39)
+        && orderItemOk(l, 40) && orderItemOk(l, 41) && orderItemOk(l, 42) && orderItemOk(l, 43)
+        && orderItemOk(l, 44) && orderItemOk(l, 45) && orderItemOk(l, 46) && orderItemOk(l, 47)
+        && orderItemOk(l, 48) && orderItemOk(l, 49);
+    }
+
+    function isValidCustomer(c) {
+      return c is map
+        && c.keys().hasAll(['name'])
+        && c.keys().hasOnly(['name', 'phone', 'city', 'address', 'notes'])
+        && isStr(c.name, 1, 80)
+        && optStr(c, 'phone', 300)
+        && optStr(c, 'city', 300)
+        && optStr(c, 'address', 300)
+        && optStr(c, 'notes', 300);
+    }
+
+    // =============================================================
+    // Domain Validators (used in BOTH create and update)
+    // =============================================================
+
+    function isValidProduct(d) {
+      return d.keys().hasAll(['name', 'slug', 'categorySlug', 'images', 'price',
+                              'sizes', 'hidden', 'order'])
+        && d.keys().hasOnly(['name', 'slug', 'categorySlug', 'teamSlug', 'forWomen',
+                             'description', 'images', 'price', 'salePrice', 'sizes',
+                             'customization', 'isNew', 'isFeatured', 'hidden', 'order',
+                             'createdAt', 'updatedAt'])
+        && isStr(d.name, 1, 120)
+        && isStr(d.slug, 1, 120)
+        && isStr(d.categorySlug, 1, 120)
+        && (!('teamSlug' in d) || d.teamSlug == null || isStr(d.teamSlug, 1, 120))
+        && optBool(d, 'forWomen')
+        && optStr(d, 'description', 2000)
+        && isValidImages(d.images)
+        && isMoney(d.price)
+        && (!('salePrice' in d) || d.salePrice == null || isMoney(d.salePrice))
+        && isValidSizes(d.sizes)
+        && (!('customization' in d) || isCustomization(d.customization))
+        && optBool(d, 'isNew')
+        && optBool(d, 'isFeatured')
+        && d.hidden is bool
+        && d.order is number
+        && (!('createdAt' in d) || isTimeOrNumber(d.createdAt))
+        && (!('updatedAt' in d) || isTimeOrNumber(d.updatedAt));
+    }
+
+    function isValidCategory(d) {
+      return d.keys().hasAll(['name', 'slug'])
+        && d.keys().hasOnly(['name', 'slug', 'image', 'order'])
+        && isStr(d.name, 1, 80)
+        && isStr(d.slug, 1, 120)
+        && (!('image' in d) || d.image == '' || isUrlOrPath(d.image))
+        && optNum(d, 'order');
+    }
+
+    function isValidTeam(d) {
+      return d.keys().hasAll(['name', 'slug'])
+        && d.keys().hasOnly(['name', 'slug', 'order'])
+        && isStr(d.name, 1, 80)
+        && isStr(d.slug, 1, 120)
+        && optNum(d, 'order');
+    }
+
+    function isValidBanner(d) {
+      return d.keys().hasAll(['image'])
+        && d.keys().hasOnly(['image', 'title', 'subtitle', 'link', 'buttonText',
+                             'active', 'order'])
+        && isUrlOrPath(d.image)
+        && optStr(d, 'title', 200)
+        && optStr(d, 'subtitle', 200)
+        && optStr(d, 'link', 1000)
+        && optStr(d, 'buttonText', 200)
+        && optBool(d, 'active')
+        && optNum(d, 'order');
+    }
+
+    function isValidSettings(d) {
+      return d.keys().hasOnly(['whatsapp', 'socials', 'about', 'shipping', 'payments',
+                               'faq', 'sizeGuide', 'customizationDefault'])
+        && optStr(d, 'whatsapp', 30)
+        && (!('socials' in d) || (d.socials is map && d.socials.keys().size() <= 15))
+        && optStr(d, 'about', 5000)
+        && optStr(d, 'shipping', 5000)
+        && optStr(d, 'payments', 5000)
+        && (!('faq' in d) || isValidFaq(d.faq))
+        && optStr(d, 'sizeGuide', 5000)
+        && (!('customizationDefault' in d) || isMoney(d.customizationDefault));
+    }
+
+    // Public (anonymous) order creation.
+    function isValidNewOrder(d) {
+      return d.keys().hasAll(['items', 'customer', 'total', 'status', 'createdAt'])
+        && d.keys().hasOnly(['items', 'customer', 'total', 'status', 'createdAt'])
+        && isValidOrderItems(d.items)
+        && isValidCustomer(d.customer)
+        && isMoney(d.total)
+        && d.status == 'nuevo'
+        && d.createdAt == request.time;
+    }
+
+    // Admin order update: ONLY `status` may change, to an allowed value.
+    function isValidOrderUpdate() {
+      return incoming().diff(resource.data).affectedKeys().hasOnly(['status'])
+        && incoming().status in ['nuevo', 'confirmado', 'entregado', 'cancelado'];
+    }
+
+    // =============================================================
+    // Collection Rules
+    // =============================================================
+
+    // Catalog: public read (hidden products are filtered client-side and are
+    // not considered secret). Admin-only, validated writes.
+    match /products/{productId} {
+      allow read: if true;
+      allow create: if isAdmin() && isValidProduct(incoming());
+      allow update: if isAdmin() && isValidProduct(incoming()) && createdAtUnchanged();
+      allow delete: if isAdmin();
+    }
+
+    match /categories/{categoryId} {
+      allow read: if true;
+      allow create, update: if isAdmin() && isValidCategory(incoming());
+      allow delete: if isAdmin();
+    }
+
+    match /teams/{teamId} {
+      allow read: if true;
+      allow create, update: if isAdmin() && isValidTeam(incoming());
+      allow delete: if isAdmin();
+    }
+
+    match /banners/{bannerId} {
+      allow read: if true;
+      allow create, update: if isAdmin() && isValidBanner(incoming());
+      allow delete: if isAdmin();
+    }
+
+    // Single settings document: settings/store
+    match /settings/{docId} {
+      allow read: if true;
+      allow create, update: if isAdmin() && docId == 'store' && isValidSettings(incoming());
+      allow delete: if isAdmin();
+    }
+
+    // Orders contain PII (phone, address) -> never publicly readable.
+    match /orders/{orderId} {
+      allow create: if isValidNewOrder(incoming());
+      allow read: if isAdmin();
+      allow update: if isAdmin() && isValidOrderUpdate();
+      allow delete: if isAdmin();
+    }
+
+    // Default deny: any path not matched above is rejected.
+  }
+}
