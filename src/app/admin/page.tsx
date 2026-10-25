@@ -488,25 +488,25 @@ export default function AdminPage() {
       </header>
 
       {/* Main Container */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-8">
+      <div className="max-w-7xl mx-auto px-2 sm:px-6 pt-3 sm:pt-6 pb-12">
         
         {/* ========================================================== */}
         {/* TAB 1: PRODUCTOS                                           */}
         {/* ========================================================== */}
         {tab === "productos" && (
-          <div className="space-y-6">
-            {/* Toolbar */}
-            <div className="bg-white p-4 sm:p-6 rounded-3xl border border-slate-200 flex flex-col md:flex-row items-center justify-between gap-4 shadow-sm">
-              <div className="flex flex-col sm:flex-row items-center gap-3 w-full md:w-auto">
+          <div className="space-y-3">
+            {/* Toolbar Compact */}
+            <div className="bg-white p-2.5 sm:p-3.5 rounded-2xl border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-2.5 shadow-sm">
+              <div className="flex flex-col sm:flex-row items-center gap-2 w-full sm:w-auto">
                 {/* Search */}
-                <div className="relative w-full sm:w-72">
-                  <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+                <div className="relative w-full sm:w-64">
+                  <Search className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
                   <input
                     type="text"
                     placeholder="Buscar camiseta por nombre..."
                     value={prodSearch}
                     onChange={(e) => setProdSearch(e.target.value)}
-                    className="w-full bg-slate-50 text-xs pl-9 pr-3 py-2.5 rounded-xl border border-slate-200 focus:outline-none focus:border-cyan-500"
+                    className="w-full bg-slate-50 text-xs pl-8 pr-3 py-1.5 rounded-lg border border-slate-200 focus:outline-none focus:border-cyan-500"
                   />
                 </div>
 
@@ -514,9 +514,9 @@ export default function AdminPage() {
                 <select
                   value={prodCatFilter}
                   onChange={(e) => setProdCatFilter(e.target.value)}
-                  className="w-full sm:w-auto bg-slate-50 text-xs font-bold px-3 py-2.5 rounded-xl border border-slate-200 focus:outline-none focus:border-cyan-500"
+                  className="w-full sm:w-auto bg-slate-50 text-xs font-bold px-2.5 py-1.5 rounded-lg border border-slate-200 focus:outline-none focus:border-cyan-500"
                 >
-                  <option value="all">Todas las Categorías</option>
+                  <option value="all">Todas las Categorías ({products.length})</option>
                   {categories.map((c) => (
                     <option key={c.id} value={c.slug}>
                       {c.name}
@@ -528,24 +528,145 @@ export default function AdminPage() {
               {/* Add New Product Button */}
               <button
                 onClick={handleOpenCreateProduct}
-                className="w-full md:w-auto px-5 py-2.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-md shadow-cyan-500/20 transition-all hover:scale-105"
+                className="w-full sm:w-auto px-4 py-1.5 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-black text-xs flex items-center justify-center gap-1.5 shadow-sm transition-all"
               >
-                <Plus className="w-4 h-4" /> Agregar Nueva Camiseta
+                <Plus className="w-3.5 h-3.5" /> Agregar Nueva Camiseta
               </button>
             </div>
 
-            {/* Products Table */}
-            <div className="bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden">
-              <div className="overflow-x-auto">
+            {/* Products Container */}
+            <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+              {/* VISTA MÓVIL (Compacta, sin scroll horizontal) */}
+              <div className="block md:hidden divide-y divide-slate-100">
+                {adminFilteredProducts.map((p) => {
+                  const soldOut = isSoldOut(p);
+                  return (
+                    <div
+                      key={p.id}
+                      className={`p-2.5 flex items-start gap-2.5 hover:bg-slate-50 transition-colors ${
+                        p.hidden ? "opacity-60 bg-slate-50/60" : ""
+                      }`}
+                    >
+                      {/* Thumbnail */}
+                      <div className="w-12 h-14 rounded-lg bg-slate-100 overflow-hidden relative border border-slate-200 shrink-0">
+                        <Image src={p.images[0] || "/logo.jpg"} alt="" fill className="object-contain p-0.5" />
+                      </div>
+
+                      {/* Info & Controles */}
+                      <div className="flex-1 min-w-0">
+                        {/* Fila 1: Título y Precio */}
+                        <div className="flex items-start justify-between gap-1.5">
+                          <div className="min-w-0">
+                            <div className="font-extrabold text-slate-900 text-xs truncate leading-snug">
+                              {p.name}
+                            </div>
+                            <div className="text-[10px] text-cyan-700 font-semibold flex items-center gap-1 mt-0.5">
+                              <span>{p.categorySlug}</span>
+                              {p.teamSlug && <span>• {p.teamSlug}</span>}
+                              {p.forWomen && <span className="text-pink-600 font-bold">• Mujer</span>}
+                            </div>
+                          </div>
+                          <div className="text-right shrink-0">
+                            <div className="font-black text-slate-900 text-xs">
+                              {formatPrice(effectivePrice(p))}
+                            </div>
+                            {p.salePrice && (
+                              <div className="text-[9px] text-amber-600 font-bold line-through">
+                                {formatPrice(p.price)}
+                              </div>
+                            )}
+                          </div>
+                        </div>
+
+                        {/* Fila 2: Tallas y Acciones */}
+                        <div className="flex items-center justify-between gap-1 mt-1.5 pt-1 border-t border-slate-100">
+                          {/* Tallas */}
+                          <div className="flex items-center gap-1 flex-wrap">
+                            {p.sizes.map((s) => (
+                              <span
+                                key={s.label}
+                                className={`px-1 py-0.2 rounded text-[9px] font-bold ${
+                                  s.soldOut
+                                    ? "bg-red-100 text-red-600 line-through"
+                                    : "bg-slate-100 text-slate-700"
+                                }`}
+                              >
+                                {s.label}
+                              </span>
+                            ))}
+                            <button
+                              onClick={() => handleToggleProductSoldOut(p)}
+                              className={`text-[9px] font-bold underline ml-1 ${
+                                soldOut ? "text-green-600" : "text-amber-600"
+                              }`}
+                            >
+                              {soldOut ? "Disponible" : "Agotar"}
+                            </button>
+                          </div>
+
+                          {/* Botones de Estado y Acciones */}
+                          <div className="flex items-center gap-1 shrink-0">
+                            <button
+                              onClick={() => handleToggleProductProp(p, "isFeatured")}
+                              className={`p-1 rounded-md border ${
+                                p.isFeatured
+                                  ? "bg-amber-100 border-amber-300 text-amber-600"
+                                  : "bg-slate-50 border-slate-200 text-slate-300"
+                              }`}
+                              title="Destacado"
+                            >
+                              <Star className={`w-3 h-3 ${p.isFeatured ? "fill-current" : ""}`} />
+                            </button>
+
+                            <button
+                              onClick={() => handleToggleProductProp(p, "hidden")}
+                              className={`p-1 rounded-md border ${
+                                p.hidden
+                                  ? "bg-slate-200 border-slate-300 text-slate-500"
+                                  : "bg-green-50 border-green-200 text-green-600"
+                              }`}
+                              title={p.hidden ? "Oculto" : "Visible"}
+                            >
+                              {p.hidden ? <EyeOff className="w-3 h-3" /> : <Eye className="w-3 h-3" />}
+                            </button>
+
+                            <button
+                              onClick={() => {
+                                setEditingProduct({ ...p });
+                                setIsNewProduct(false);
+                              }}
+                              className="p-1 rounded-md bg-slate-100 hover:bg-cyan-50 text-slate-700 hover:text-cyan-700"
+                              title="Editar"
+                            >
+                              <Edit3 className="w-3 h-3" />
+                            </button>
+
+                            <button
+                              onClick={() => handleDeleteProduct(p.id, p.name)}
+                              className="p-1 rounded-md bg-slate-100 hover:bg-red-50 text-slate-400 hover:text-red-600"
+                              title="Eliminar"
+                            >
+                              <Trash2 className="w-3 h-3" />
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+
+              {/* VISTA ESCRITORIO (Tabla compacta y densa) */}
+              <div className="hidden md:block overflow-x-auto">
                 <table className="w-full text-left text-xs">
-                  <thead className="bg-slate-50 border-b border-slate-200 text-slate-500 font-bold uppercase tracking-wider">
+                  <thead className="bg-slate-50 border-b border-slate-200 text-slate-500 font-bold uppercase tracking-wider text-[11px]">
                     <tr>
-                      <th className="py-3 px-4">Foto</th>
-                      <th className="py-3 px-4">Nombre / Categoría</th>
-                      <th className="py-3 px-4">Precio</th>
-                      <th className="py-3 px-4">Tallas / Stock</th>
-                      <th className="py-3 px-4">Estado</th>
-                      <th className="py-3 px-4 text-right">Acciones</th>
+                      <th className="py-2 px-3 w-14">Foto</th>
+                      <th className="py-2 px-3">Nombre / Categoría</th>
+                      <th className="py-2 px-3">Precio</th>
+                      <th className="py-2 px-3">Tallas / Stock</th>
+                      <th className="py-2 px-3">Estado</th>
+                      <th className="py-2 px-3 text-right">Acciones</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-100 font-medium text-slate-700">
@@ -554,18 +675,18 @@ export default function AdminPage() {
                       return (
                         <tr key={p.id} className={`hover:bg-slate-50 transition-colors ${p.hidden ? "opacity-60 bg-slate-50/50" : ""}`}>
                           {/* Image */}
-                          <td className="py-2.5 px-4">
-                            <div className="w-12 h-14 rounded-lg bg-slate-100 overflow-hidden relative border border-slate-200">
-                              <Image src={p.images[0] || "/logo.jpg"} alt="" fill className="object-contain p-1" />
+                          <td className="py-1.5 px-3">
+                            <div className="w-9 h-11 rounded-md bg-slate-100 overflow-hidden relative border border-slate-200">
+                              <Image src={p.images[0] || "/logo.jpg"} alt="" fill className="object-contain p-0.5" />
                             </div>
                           </td>
 
                           {/* Name and Category */}
-                          <td className="py-2.5 px-4 max-w-xs">
-                            <div className="font-extrabold text-slate-900 text-sm truncate">
+                          <td className="py-1.5 px-3 max-w-sm">
+                            <div className="font-extrabold text-slate-900 text-xs truncate">
                               {p.name}
                             </div>
-                            <div className="text-[11px] text-cyan-600 font-semibold flex items-center gap-2 mt-0.5">
+                            <div className="text-[10px] text-cyan-600 font-semibold flex items-center gap-1.5 mt-0.5">
                               <span>{p.categorySlug}</span>
                               {p.teamSlug && <span>• {p.teamSlug}</span>}
                               {p.forWomen && <span className="text-pink-600 font-bold">• Mujer</span>}
@@ -573,22 +694,22 @@ export default function AdminPage() {
                           </td>
 
                           {/* Price */}
-                          <td className="py-2.5 px-4 font-bold text-slate-900">
+                          <td className="py-1.5 px-3 font-bold text-slate-900 whitespace-nowrap">
                             <div>{formatPrice(effectivePrice(p))}</div>
                             {p.salePrice && (
-                              <div className="text-[10px] text-amber-600 font-extrabold">
+                              <div className="text-[9px] text-amber-600 font-bold">
                                 Oferta (orig. {formatPrice(p.price)})
                               </div>
                             )}
                           </td>
 
                           {/* Sizes / Sold Out Toggle */}
-                          <td className="py-2.5 px-4">
-                            <div className="flex flex-wrap gap-1 max-w-xs">
+                          <td className="py-1.5 px-3">
+                            <div className="flex items-center gap-1 flex-wrap">
                               {p.sizes.map((s) => (
                                 <span
                                   key={s.label}
-                                  className={`px-1.5 py-0.5 rounded text-[10px] font-bold ${
+                                  className={`px-1.5 py-0.5 rounded text-[9px] font-bold ${
                                     s.soldOut
                                       ? "bg-red-100 text-red-600 line-through"
                                       : "bg-slate-100 text-slate-700"
@@ -597,37 +718,37 @@ export default function AdminPage() {
                                   {s.label}
                                 </span>
                               ))}
+                              <button
+                                onClick={() => handleToggleProductSoldOut(p)}
+                                className={`text-[10px] font-bold underline ml-1.5 ${
+                                  soldOut ? "text-green-600" : "text-amber-600"
+                                }`}
+                              >
+                                {soldOut ? "Disponible" : "Agotar"}
+                              </button>
                             </div>
-                            <button
-                              onClick={() => handleToggleProductSoldOut(p)}
-                              className={`text-[10px] font-bold underline mt-1 block ${
-                                soldOut ? "text-green-600" : "text-amber-600"
-                              }`}
-                            >
-                              {soldOut ? "Marcar Disponible" : "Marcar Todo Agotado"}
-                            </button>
                           </td>
 
                           {/* Badges Toggles */}
-                          <td className="py-2.5 px-4">
-                            <div className="flex items-center gap-1.5">
+                          <td className="py-1.5 px-3 whitespace-nowrap">
+                            <div className="flex items-center gap-1">
                               {/* Featured Toggle */}
                               <button
                                 onClick={() => handleToggleProductProp(p, "isFeatured")}
-                                className={`p-1.5 rounded-lg border transition-colors ${
+                                className={`p-1 rounded-md border transition-colors ${
                                   p.isFeatured
                                     ? "bg-amber-100 border-amber-300 text-amber-600"
                                     : "bg-slate-50 border-slate-200 text-slate-300 hover:text-amber-500"
                                 }`}
                                 title="Destacado en portada"
                               >
-                                <Star className={`w-3.5 h-3.5 ${p.isFeatured ? "fill-current" : ""}`} />
+                                <Star className={`w-3 h-3 ${p.isFeatured ? "fill-current" : ""}`} />
                               </button>
 
                               {/* New Toggle */}
                               <button
                                 onClick={() => handleToggleProductProp(p, "isNew")}
-                                className={`px-2 py-1 rounded-lg border text-[10px] font-black transition-colors ${
+                                className={`px-1.5 py-0.5 rounded-md border text-[9px] font-black transition-colors ${
                                   p.isNew
                                     ? "bg-cyan-100 border-cyan-300 text-cyan-700"
                                     : "bg-slate-50 border-slate-200 text-slate-400 hover:text-cyan-600"
@@ -640,38 +761,38 @@ export default function AdminPage() {
                               {/* Visibility Toggle */}
                               <button
                                 onClick={() => handleToggleProductProp(p, "hidden")}
-                                className={`p-1.5 rounded-lg border transition-colors ${
+                                className={`p-1 rounded-md border transition-colors ${
                                   p.hidden
                                     ? "bg-slate-200 border-slate-300 text-slate-500"
                                     : "bg-green-50 border-green-200 text-green-600"
                                 }`}
                                 title={p.hidden ? "Oculto (clic para mostrar)" : "Visible en la tienda"}
                               >
-                                {p.hidden ? <EyeOff className="w-3.5 h-3.5" /> : <Eye className="w-3.5 h-3.5" />}
+                                {p.hidden ? <EyeOff className="w-3 h-3" /> : <Eye className="w-3 h-3" />}
                               </button>
                             </div>
                           </td>
 
                           {/* Action Buttons */}
-                          <td className="py-2.5 px-4 text-right">
-                            <div className="flex items-center justify-end gap-1.5">
+                          <td className="py-1.5 px-3 text-right whitespace-nowrap">
+                            <div className="flex items-center justify-end gap-1">
                               <button
                                 onClick={() => {
                                   setEditingProduct({ ...p });
                                   setIsNewProduct(false);
                                 }}
-                                className="p-2 rounded-lg bg-slate-100 hover:bg-cyan-50 text-slate-700 hover:text-cyan-700 transition-colors"
+                                className="p-1.5 rounded-md bg-slate-100 hover:bg-cyan-50 text-slate-700 hover:text-cyan-700 transition-colors"
                                 title="Editar"
                               >
-                                <Edit3 className="w-4 h-4" />
+                                <Edit3 className="w-3.5 h-3.5" />
                               </button>
 
                               <button
                                 onClick={() => handleDeleteProduct(p.id, p.name)}
-                                className="p-2 rounded-lg bg-slate-100 hover:bg-red-50 text-slate-400 hover:text-red-600 transition-colors"
+                                className="p-1.5 rounded-md bg-slate-100 hover:bg-red-50 text-slate-400 hover:text-red-600 transition-colors"
                                 title="Eliminar"
                               >
-                                <Trash2 className="w-4 h-4" />
+                                <Trash2 className="w-3.5 h-3.5" />
                               </button>
                             </div>
                           </td>
